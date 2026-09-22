@@ -1,0 +1,13 @@
+file,app_id,state,bytes,pages,modified,text_chars,text_source
+Response_KA-055.pdf,KA-055,Karnataka,1365394,1,2026-09-19,1003,pdftotext
+Response_KA-057.pdf,KA-057,Karnataka,1376440,1,2026-09-18,1633,pdftotext
+Response_KA-057_supporting docs.pdf,KA-057,Karnataka,978891,6,2026-09-19,0,pdftotext
+Response_KA-102.pdf,KA-102,Karnataka,1370291,1,2026-09-16,1290,pdftotext
+Response_KA-102_document.pdf,KA-102,Karnataka,441464,2,2026-09-16,0,pdftotext
+Response_TN-052.pdf,TN-052,Tamil Nadu,10365615,2,2026-09-12,0,pdftotext
+TN/Response_TN-057.pdf,TN-057,Tamil Nadu,607966,2,2026-09-20,0,pdftotext
+response_TN-173.pdf,TN-173,Tamil Nadu,2042457,8,2026-09-05,0,pdftotext
+Response_TN-223.pdf,TN-223,Tamil Nadu,8389087,1,2026-09-12,0,pdftotext
+Response_TN-283.pdf,TN-283,Tamil Nadu,439692,1,2026-09-18,764,pdftotext
+Response_TN-283_tamil.pdf,TN-283,Tamil Nadu,227488,2,2026-09-18,0,pdftotext
+TN/Reponse_TN-308.PDF,TN-308,Tamil Nadu,608650,1,2026-09-12,658,pdftotext

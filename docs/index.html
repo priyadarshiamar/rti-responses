@@ -1,0 +1,194 @@
+<title>RTI Response Tracker</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --bg:#f7f6f2; --panel:#ffffff; --line:#e3e1da; --ink:#1c1b18; --ink2:#5c5a54; --ink3:#8a877e;
+  --accent:#2a78d6; --accent-soft:#cde2fb; --filed:#c9c6bc;
+  --good:#0ca30c; --warn:#fab219; --serious:#ec835a; --critical:#d03b3b;
+  --chip-good:#e2f5e2; --chip-warn:#fff1d1; --chip-serious:#fde6dc; --chip-critical:#f9dcdc; --chip-neutral:#ecebe6;
+  --radius:6px; --font:"IBM Plex Sans",system-ui,sans-serif; --display:"Fraunces",Georgia,serif; --mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#181816; --panel:#22221f; --line:#36352f; --ink:#f2f1ec; --ink2:#c3c2b7; --ink3:#8f8d84;
+  --accent:#3987e5; --accent-soft:#1c3a5f; --filed:#4a4942;
+  --chip-good:#173d17; --chip-warn:#4a3a0e; --chip-serious:#4d2a1c; --chip-critical:#4d1f1f; --chip-neutral:#33322d;
+}}
+:root[data-theme="dark"]{
+  --bg:#181816; --panel:#22221f; --line:#36352f; --ink:#f2f1ec; --ink2:#c3c2b7; --ink3:#8f8d84;
+  --accent:#3987e5; --accent-soft:#1c3a5f; --filed:#4a4942;
+  --chip-good:#173d17; --chip-warn:#4a3a0e; --chip-serious:#4d2a1c; --chip-critical:#4d1f1f; --chip-neutral:#33322d;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--font);font-size:14px;line-height:1.45;margin:0;padding-block:28px 48px;padding-inline:clamp(16px,4vw,40px)}
+.wrap{max-width:1180px;margin:0 auto;display:grid;gap:24px}
+header{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 24px;border-bottom:1px solid var(--line);padding-bottom:16px}
+h1{font-family:var(--display);font-weight:600;font-size:30px;margin:0;letter-spacing:-.01em;text-wrap:balance}
+h2{font-family:var(--display);font-weight:500;font-size:19px;margin:0 0 12px}
+.meta{color:var(--ink2);font-size:13px}
+.meta code{font-family:var(--mono);font-size:12px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+.tile{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px}
+.tile .k{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink2)}
+.tile .v{font-family:var(--display);font-size:34px;font-weight:500;line-height:1.1;margin-top:4px;font-variant-numeric:tabular-nums}
+.tile .s{color:var(--ink3);font-size:12px;margin-top:4px}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px}
+.bars{display:grid;gap:8px}
+.bar{display:grid;grid-template-columns:minmax(120px,38%) 1fr auto;align-items:center;gap:10px;font-size:13px}
+.bar .lab{color:var(--ink2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bar .trk{height:14px;background:var(--chip-neutral);border-radius:3px;position:relative;overflow:hidden}
+.bar .fil{position:absolute;inset:0 auto 0 0;background:var(--accent);border-radius:3px}
+.bar .fil.filed{background:var(--filed)}
+.bar .n{font-family:var(--mono);font-size:12px;color:var(--ink);min-width:3.5em;text-align:right;font-variant-numeric:tabular-nums}
+.legend{display:flex;gap:16px;font-size:12px;color:var(--ink2);margin-bottom:10px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+.stack{display:grid;gap:14px}
+.pair{display:grid;gap:3px}
+.chip{display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:500;white-space:nowrap}
+.c-full{background:var(--chip-good)} .c-partial{background:var(--chip-warn)} .c-fee_pending{background:var(--chip-warn)}
+.c-transferred{background:var(--chip-neutral)} .c-denied{background:var(--chip-critical)} .c-returned{background:var(--chip-critical)} .c-silent{background:var(--chip-serious)}
+.chip::before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:6px;vertical-align:1px;background:var(--ink3)}
+.c-full::before{background:var(--good)} .c-partial::before,.c-fee_pending::before{background:var(--warn)} .c-denied::before,.c-returned::before{background:var(--critical)} .c-silent::before{background:var(--serious)}
+.controls{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:12px}
+.controls select,.controls input{font:inherit;font-size:13px;padding:6px 10px;border:1px solid var(--line);border-radius:var(--radius);background:var(--panel);color:var(--ink)}
+.controls input{flex:1;min-width:180px}
+.tbl-wrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th{font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink2);text-align:left;font-weight:500;padding:8px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+td.id{font-family:var(--mono);font-size:12px;white-space:nowrap}
+td.num{font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
+td .note{display:block;color:var(--ink2);font-size:12px;margin-top:4px;max-width:46ch}
+td .auth{font-weight:500}
+td .sub{color:var(--ink3);font-size:12px}
+.arm{font-family:var(--mono);font-size:11px;color:var(--ink2)}
+.empty{color:var(--ink3);font-style:italic}
+ul.plain{margin:0;padding-left:18px;color:var(--ink2)}
+.small{font-size:12px;color:var(--ink3)}
+details summary{cursor:pointer;color:var(--ink2);font-size:13px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (max-width:520px){ h1{font-size:24px} .tile .v{font-size:28px} }
+</style>
+
+<div class="wrap">
+  <header>
+    <div>
+      <h1>RTI Response Tracker</h1>
+      <div class="meta">Responses received to the RTI audit, first-pass coded. Built <code id="built"></code>. Refreshes every two days from the Drive folder.</div>
+    </div>
+    <div class="meta">Coding is single-pass and provisional until double-coded.</div>
+  </header>
+
+  <section class="tiles" id="tiles"></section>
+
+  <section class="grid2">
+    <div class="panel">
+      <h2>Filed and answered, by state</h2>
+      <div class="legend"><span><i style="background:var(--filed)"></i>Filed</span><span><i style="background:var(--accent)"></i>Answered</span></div>
+      <div class="bars" id="byState"></div>
+      <p class="small">Filed counts come from receipts in the Filed_RTI folder; a state with receipts but no responses still shows.</p>
+    </div>
+    <div class="panel">
+      <h2>What happened</h2>
+      <div class="bars" id="byDisp"></div>
+      <p class="small">Full = information supplied. Partial = some supplied. Fee pending = release on payment. Returned = bounced with nothing. Denied = refused or deflected. Transferred = handed to another office.</p>
+    </div>
+    <div class="panel">
+      <h2>How detailed was what came back</h2>
+      <div class="bars" id="byGran"></div>
+      <p class="small">Format A = one row per RTI application the office received. Format B = monthly or category counts. Format C = a few period totals. Prose only = no numbers. Nothing = nothing usable.</p>
+    </div>
+    <div class="panel">
+      <h2>Days from filing to the PIO's reply</h2>
+      <div class="bars" id="byDays"></div>
+      <p class="small">Date on the PIO's document minus the portal filing date. For postal replies this understates the days until we actually received it.</p>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>All coded responses</h2>
+    <div class="controls">
+      <select id="fState"><option value="">All states</option></select>
+      <select id="fDisp"><option value="">All outcomes</option></select>
+      <input id="fQ" type="search" placeholder="Search authority, notes, ID">
+    </div>
+    <div class="tbl-wrap"><table>
+      <thead><tr><th>ID</th><th>Authority</th><th>Arm</th><th>Filed</th><th>Replied</th><th>Days</th><th>Via</th><th>What happened</th><th>How detailed</th><th>s.25 return</th><th>Fee</th></tr></thead>
+      <tbody id="rows"></tbody>
+    </table></div>
+  </section>
+
+  <section class="grid2">
+    <div class="panel">
+      <h2>Awaiting coding</h2>
+      <div id="uncoded"></div>
+    </div>
+    <div class="panel">
+      <h2>Files in the Drive folder</h2>
+      <details><summary id="fileCount"></summary><div class="tbl-wrap"><table><thead><tr><th>File</th><th>ID</th><th>Pages</th><th>Text</th><th>Added</th></tr></thead><tbody id="fileRows"></tbody></table></div></details>
+      <p class="small" id="unmatched"></p>
+    </div>
+  </section>
+</div>
+
+<script>
+const DATA = {"built_at": "2026-09-22 16:35", "filed_by_state": {"Telangana": 186, "Karnataka": 73, "Delhi": 6, "Tamil Nadu": 128, "Maharashtra": 1}, "filed_total": 394, "responses": [{"app_id": "KA-055", "state": "Karnataka", "authority": "Hassan Urban Development Cell (DUDC)", "filing_date": "2026-09-12", "response_date": "2026-09-19", "medium": "portal", "disposition": "returned", "granularity": "none", "q3_sec25": "not_addressed", "fee_inr": "", "fee_pages": "", "fee_channel": "", "supplied_by_email": "0", "clause_cited": "none", "appeal_candidate": "1", "notes": "Portal status: RTI request returned to applicant; remark \"please contact the concern department\". No exemption clause and no s.6(3) transfer.", "coder": "claude", "coded_on": "2026-09-22", "confidence": "high", "ra": "", "treatment": "", "tier": "", "department": "", "days": 7, "files": ["Response_KA-055.pdf"]}, {"app_id": "KA-057", "state": "Karnataka", "authority": "Dy Commissioner of Excise, Ballari", "filing_date": "2026-09-12", "response_date": "2026-09-18", "medium": "portal", "disposition": "partial", "granularity": "format_a", "q3_sec25": "refused_separate_application", "fee_inr": "", "fee_pages": "", "fee_channel": "", "supplied_by_email": "1", "clause_cited": "none", "appeal_candidate": "0", "notes": "Scanned register (6 pp, handwritten Kannada) enclosed. Told to file a separate application for s.25 return and for subordinate offices instead of a s.6(3) transfer. First appellate authority named.", "coder": "claude", "coded_on": "2026-09-22", "confidence": "high", "ra": "", "treatment": "", "tier": "", "department": "", "days": 6, "files": ["Response_KA-057.pdf", "Response_KA-057_supporting docs.pdf"]}, {"app_id": "KA-102", "state": "Karnataka", "authority": "Labour Officer, Vijayanagara", "filing_date": "2026-09-14", "response_date": "2026-09-16", "medium": "portal", "disposition": "partial", "granularity": "narrative_only", "q3_sec25": "not_addressed", "fee_inr": "", "fee_pages": "", "fee_channel": "", "supplied_by_email": "1", "clause_cited": "none", "appeal_candidate": "0", "notes": "Reply letter quotes our questions back and says information is enclosed, but the 2-page attachment is the letter only. RA to check portal for a missing attachment.", "coder": "claude", "coded_on": "2026-09-22", "confidence": "medium", "ra": "", "treatment": "", "tier": "", "department": "", "days": 2, "files": ["Response_KA-102.pdf", "Response_KA-102_document.pdf"]}, {"app_id": "TN-052", "state": "Tamil Nadu", "authority": "Agriculture and Farmers Welfare Department (Secretariat)", "filing_date": "2026-08-26", "response_date": "2026-09-03", "medium": "post", "disposition": "partial", "granularity": "format_c", "q3_sec25": "referred_to_website", "fee_inr": "", "fee_pages": "", "fee_channel": "", "supplied_by_email": "0", "clause_cited": "7(9)", "appeal_candidate": "0", "notes": "Says particulars are not maintained and compiling would divert resources (s.7(9)), yet supplies a period-totals table. Photo scan; numbers need a manual read.", "coder": "claude", "coded_on": "2026-09-22", "confidence": "medium", "ra": "RA2", "treatment": "legal_salience", "tier": "Department", "department": "AGRICULTURE AND FARMERS WELFARE DEPARTMENT", "days": 8, "files": ["Response_TN-052.pdf"]}, {"app_id": "TN-057", "state": "Tamil Nadu", "authority": "Asst Director of Seed Certification, Dharmapuri", "filing_date": "2026-08-28", "response_date": "2026-09-18", "medium": "post", "disposition": "full", "granularity": "format_a", "q3_sec25": "not_held", "fee_inr": "", "fee_pages": "", "fee_channel": "", "supplied_by_email": "0", "clause_cited": "none", "appeal_candidate": "0", "notes": "Model response: one register row (the office received one RTI all year) plus a month-wise table. States no s.25 return is maintained.", "coder": "claude", "coded_on": "2026-09-22", "confidence": "high", "ra": "RA1", "treatment": "legal_salience", "tier": "Sub Office", "department": "AGRICULTURE AND FARMERS WELFARE DEPARTMENT", "days": 21, "files": ["TN/Response_TN-057.pdf"]}, {"app_id": "TN-173", "state": "Tamil Nadu", "authority": "Co-operation, Food and Consumer Protection Department (Secretariat)", "filing_date": "2026-08-29", "response_date": "2026-09-03", "medium": "post", "disposition": "fee_pending", "granularity": "format_c", "q3_sec25": "supplied", "fee_inr": "832", "fee_pages": "416", "fee_channel": "post_or_counter", "supplied_by_email": "0", "clause_cited": "none", "appeal_candidate": "0", "notes": "Half-year totals given: 712 received, all 712 transferred to HODs. Register photocopies (416 pp at Rs 2) offered on payment instead of emailed scans. 2025 annual report under s.25 enclosed.", "coder": "claude", "coded_on": "2026-09-22", "confidence": "high", "ra": "RA2", "treatment": "legal_salience", "tier": "Department", "department": "COOPERATION, FOOD AND CONSUMER PROTECTION DEPARTMENT", "days": 5, "files": ["response_TN-173.pdf"]}, {"app_id": "TN-223", "state": "Tamil Nadu", "authority": "TANGEDCO, Superintending Engineer, Tirupur", "filing_date": "2026-08-30", "response_date": "2026-09-05", "medium": "post", "disposition": "transferred", "granularity": "none", "q3_sec25": "not_addressed", "fee_inr": "", "fee_pages": "", "fee_channel": "", "supplied_by_email": "0", "clause_cited": "none", "appeal_candidate": "0", "notes": "Forwarding letter to the Executive Engineer O&M Tirupur/Avinashi/Uthukuli, who is to reply to us directly. Office received the petition 31 Aug. Substantive reply pending.", "coder": "claude", "coded_on": "2026-09-22", "confidence": "high", "ra": "RA2", "treatment": "plain", "tier": "Sub Office", "department": "ENERGY DEPARTMENT", "days": 6, "files": ["Response_TN-223.pdf"]}, {"app_id": "TN-283", "state": "Tamil Nadu", "authority": "Directorate of Sericulture", "filing_date": "2026-09-02", "response_date": "2026-09-18", "medium": "portal", "disposition": "fee_pending", "granularity": "format_a", "q3_sec25": "offered_on_payment", "fee_inr": "138", "fee_pages": "69", "fee_channel": "treasury_head_of_account", "supplied_by_email": "1", "clause_cited": "none", "appeal_candidate": "0", "notes": "Portal: additional payment Rs 138 (66 pp register + 3 pp annual report at Rs 2) into head of account 0070 60 118 AA 22739. Says reply also sent by email; email not yet in folder. Tamil letter attached.", "coder": "claude", "coded_on": "2026-09-22", "confidence": "high", "ra": "RA2", "treatment": "legal_salience", "tier": "Head of Department", "department": "HANDLOOMS, HANDICRAFTS, TEXTILES AND KHADI DEPARTMENT", "days": 16, "files": ["Response_TN-283.pdf", "Response_TN-283_tamil.pdf"]}, {"app_id": "TN-308", "state": "Tamil Nadu", "authority": "Directorate of Family Welfare", "filing_date": "2026-09-01", "response_date": "2026-09-10", "medium": "post", "disposition": "denied", "granularity": "none", "q3_sec25": "not_addressed", "fee_inr": "", "fee_pages": "", "fee_channel": "", "supplied_by_email": "0", "clause_cited": "none", "appeal_candidate": "1", "notes": "Deflection: \"all information sought is available at cic.gov.in\". No exemption clause. CIC is the central commission, not a source for a state directorate's register.", "coder": "claude", "coded_on": "2026-09-22", "confidence": "high", "ra": "RA1", "treatment": "plain", "tier": "Head of Department", "department": "HEALTH AND FAMILY WELFARE DEPARTMENT", "days": 9, "files": ["TN/Reponse_TN-308.PDF"]}], "files": [{"file": "Response_KA-055.pdf", "app_id": "KA-055", "state": "Karnataka", "bytes": 1365394, "pages": 1, "modified": "2026-09-19", "text_chars": 1003, "text_source": "pdftotext"}, {"file": "Response_KA-057.pdf", "app_id": "KA-057", "state": "Karnataka", "bytes": 1376440, "pages": 1, "modified": "2026-09-18", "text_chars": 1633, "text_source": "pdftotext"}, {"file": "Response_KA-057_supporting docs.pdf", "app_id": "KA-057", "state": "Karnataka", "bytes": 978891, "pages": 6, "modified": "2026-09-19", "text_chars": 0, "text_source": "pdftotext"}, {"file": "Response_KA-102.pdf", "app_id": "KA-102", "state": "Karnataka", "bytes": 1370291, "pages": 1, "modified": "2026-09-16", "text_chars": 1290, "text_source": "pdftotext"}, {"file": "Response_KA-102_document.pdf", "app_id": "KA-102", "state": "Karnataka", "bytes": 441464, "pages": 2, "modified": "2026-09-16", "text_chars": 0, "text_source": "pdftotext"}, {"file": "Response_TN-052.pdf", "app_id": "TN-052", "state": "Tamil Nadu", "bytes": 10365615, "pages": 2, "modified": "2026-09-12", "text_chars": 0, "text_source": "pdftotext"}, {"file": "TN/Response_TN-057.pdf", "app_id": "TN-057", "state": "Tamil Nadu", "bytes": 607966, "pages": 2, "modified": "2026-09-20", "text_chars": 0, "text_source": "pdftotext"}, {"file": "response_TN-173.pdf", "app_id": "TN-173", "state": "Tamil Nadu", "bytes": 2042457, "pages": 8, "modified": "2026-09-05", "text_chars": 0, "text_source": "pdftotext"}, {"file": "Response_TN-223.pdf", "app_id": "TN-223", "state": "Tamil Nadu", "bytes": 8389087, "pages": 1, "modified": "2026-09-12", "text_chars": 0, "text_source": "pdftotext"}, {"file": "Response_TN-283.pdf", "app_id": "TN-283", "state": "Tamil Nadu", "bytes": 439692, "pages": 1, "modified": "2026-09-18", "text_chars": 764, "text_source": "pdftotext"}, {"file": "Response_TN-283_tamil.pdf", "app_id": "TN-283", "state": "Tamil Nadu", "bytes": 227488, "pages": 2, "modified": "2026-09-18", "text_chars": 0, "text_source": "pdftotext"}, {"file": "TN/Reponse_TN-308.PDF", "app_id": "TN-308", "state": "Tamil Nadu", "bytes": 608650, "pages": 1, "modified": "2026-09-12", "text_chars": 658, "text_source": "pdftotext"}], "uncoded_app_ids": [], "unmatched_files": [], "summary": {"responded_apps": 9, "median_days": 7, "fee_total": 970.0, "appeal_candidates": 2}};
+const DISP = {full:"Full",partial:"Partial",fee_pending:"Fee pending",returned:"Returned",denied:"Denied",transferred:"Transferred",silent:"Silent"};
+const GRAN = {format_a:"Format A: row-level register",format_b:"Format B: monthly counts",format_c:"Format C: period totals",narrative_only:"Prose only",none:"Nothing"};
+const S25 = {supplied:"Supplied",not_held:"Not held",refused_separate_application:"Refused: separate application",referred_to_website:"Referred to website",offered_on_payment:"Offered on payment",not_addressed:"Not addressed"};
+const esc = s => String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmtD = d => d ? new Date(d+"T00:00").toLocaleDateString("en-GB",{day:"numeric",month:"short"}) : "";
+const R = DATA.responses, S = DATA.summary;
+document.getElementById("built").textContent = DATA.built_at;
+
+function tile(k,v,s){return `<div class="tile"><div class="k">${k}</div><div class="v">${v}</div><div class="s">${s||""}</div></div>`}
+const rate = DATA.filed_total ? Math.round(100*S.responded_apps/DATA.filed_total) : 0;
+document.getElementById("tiles").innerHTML =
+  tile("Filed", DATA.filed_total, Object.entries(DATA.filed_by_state).map(([k,v])=>`${k.split(" ").map(w=>w[0]).join("")} ${v}`).join(" · ")) +
+  tile("Answered", S.responded_apps, `${rate}% of filed`) +
+  tile("Median days", S.median_days ?? "–", "filing to PIO document") +
+  tile("Fees demanded", "₹"+S.fee_total.toLocaleString("en-IN"), R.filter(r=>r.fee_inr).length+" demands") +
+  tile("Appeal candidates", S.appeal_candidates, "denied or returned without a clause") +
+  tile("Awaiting coding", DATA.uncoded_app_ids.length, "files present, not yet coded");
+
+function bars(el, items, opts={}){
+  const max = Math.max(1,...items.map(i=>Math.max(i.v, i.v2??0)));
+  el.innerHTML = items.map(i=>{
+    const second = i.v2!=null ? `<div class="bar"><div class="lab"></div><div class="trk"><div class="fil" style="width:${100*i.v2/max}%"></div></div><div class="n">${i.v2}</div></div>`:"";
+    return `<div class="bar"><div class="lab" title="${esc(i.k)}">${esc(i.k)}</div><div class="trk"><div class="fil ${i.v2!=null?'filed':''}" style="width:${100*i.v/max}%"></div></div><div class="n">${i.v}${opts.unit||""}</div></div>${second}`;
+  }).join("") || `<div class="empty">No data yet</div>`;
+}
+const count = (key, order) => { const m={}; R.forEach(r=>{m[r[key]]=(m[r[key]]||0)+1}); return (order||Object.keys(m)).filter(k=>m[k]).map(k=>({k:(key==="disposition"?DISP:GRAN)[k]||k, v:m[k]})); };
+const states = Array.from(new Set([...Object.keys(DATA.filed_by_state), ...R.map(r=>r.state)])).sort();
+bars(document.getElementById("byState"), states.map(s=>({k:s, v:DATA.filed_by_state[s]||0, v2:R.filter(r=>r.state===s).length})));
+bars(document.getElementById("byDisp"), count("disposition", ["full","partial","fee_pending","transferred","returned","denied","silent"]));
+bars(document.getElementById("byGran"), count("granularity", ["format_a","format_b","format_c","narrative_only","none"]));
+bars(document.getElementById("byDays"), R.filter(r=>r.days!=null).sort((a,b)=>a.days-b.days).map(r=>({k:r.app_id+"  "+r.authority, v:r.days})), {unit:" d"});
+
+const fS=document.getElementById("fState"), fD=document.getElementById("fDisp"), fQ=document.getElementById("fQ");
+states.forEach(s=>fS.insertAdjacentHTML("beforeend",`<option>${esc(s)}</option>`));
+Object.entries(DISP).forEach(([k,v])=>fD.insertAdjacentHTML("beforeend",`<option value="${k}">${v}</option>`));
+function render(){
+  const q=fQ.value.toLowerCase();
+  const rows=R.filter(r=>(!fS.value||r.state===fS.value)&&(!fD.value||r.disposition===fD.value)&&(!q||(r.app_id+" "+r.authority+" "+r.notes+" "+r.department).toLowerCase().includes(q)));
+  document.getElementById("rows").innerHTML = rows.map(r=>`<tr>
+    <td class="id">${esc(r.app_id)}</td>
+    <td><span class="auth">${esc(r.authority)}</span><br><span class="sub">${esc(r.state)}${r.tier?" · "+esc(r.tier):""}${r.ra?" · "+esc(r.ra):""}</span><span class="note">${esc(r.notes)}</span></td>
+    <td><span class="arm">${esc(r.treatment||"–")}</span></td>
+    <td class="num">${fmtD(r.filing_date)}</td><td class="num">${fmtD(r.response_date)}</td><td class="num">${r.days??"–"}</td>
+    <td>${esc(r.medium)}</td>
+    <td><span class="chip c-${esc(r.disposition)}">${DISP[r.disposition]||esc(r.disposition)}</span></td>
+    <td>${GRAN[r.granularity]||esc(r.granularity)}</td>
+    <td>${S25[r.q3_sec25]||esc(r.q3_sec25)}</td>
+    <td class="num">${r.fee_inr?"₹"+r.fee_inr+(r.fee_pages?"<br><span class='sub'>"+r.fee_pages+" pp</span>":""):"–"}</td>
+  </tr>`).join("") || `<tr><td colspan="11" class="empty">No responses match</td></tr>`;
+}
+[fS,fD,fQ].forEach(e=>e.addEventListener("input",render)); render();
+
+document.getElementById("uncoded").innerHTML = DATA.uncoded_app_ids.length
+  ? `<ul class="plain">${DATA.uncoded_app_ids.map(id=>`<li><code>${esc(id)}</code>: ${DATA.files.filter(f=>f.app_id===id).map(f=>esc(f.file)).join(", ")}</li>`).join("")}</ul>`
+  : `<div class="empty">Every file in the folder has a coded row.</div>`;
+document.getElementById("fileCount").textContent = `${DATA.files.length} files covering ${new Set(DATA.files.map(f=>f.app_id).filter(Boolean)).size} applications`;
+document.getElementById("fileRows").innerHTML = DATA.files.map(f=>`<tr><td>${esc(f.file)}</td><td class="id">${esc(f.app_id)||"?"}</td><td class="num">${f.pages}</td><td>${f.text_chars>50?"yes":"scan, no text"}</td><td class="num">${esc(f.modified)}</td></tr>`).join("");
+document.getElementById("unmatched").textContent = DATA.unmatched_files.length ? "Files without a recognisable application ID: "+DATA.unmatched_files.join(", ") : "";
+</script>
