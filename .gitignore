@@ -2,3 +2,6 @@
 text/
 __pycache__/
 .DS_Store
+commission_reports/*/pdf/
+commission_reports/downloads.log
+analysis/_cache/*.log

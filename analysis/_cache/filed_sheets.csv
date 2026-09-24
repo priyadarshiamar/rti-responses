@@ -1,0 +1,511 @@
+app_id,state,treatment,assigned_ra,filing_date,registration_number,filing_outcome,not_filed_reason,filed_by,source
+TN-027,TN,plain,RA2,2026-08-26,DOADW/R/2026/60027,,,Ronit Shah,RA2_sheet
+TN-028,TN,legal_salience,RA2,2026-08-26,VFUUC/R/2026/60009,,,Ronit Shah,RA2_sheet
+TN-035,TN,plain,RA2,2026-08-26,SWCIM/R/2026/60001,,,Ronit Shah,RA2_sheet
+TN-038,TN,plain,RA2,2026-08-26,ZZDSX/R/2026/60001,,,Ronit Shah,RA2_sheet
+TN-047,TN,plain,RA2,2026-08-26,VKVSF/R/2026/60001,,,Ronit Shah,RA2_sheet
+TN-051,TN,legal_salience,RA2,2026-08-26,XHSGB/R/2026/60001,,,Ronit Shah,RA2_sheet
+TN-052,TN,legal_salience,RA2,2026-08-26,AGRIC/R/2026/60160,,,Ronit Shah,RA2_sheet
+TN-055,TN,plain,RA2,2026-08-26,DOAFW/R/2026/60061,,,Ronit Shah,RA2_sheet
+TN-060,TN,legal_salience,RA2,2026-08-26,NMDMY/R/2026/60002,,,Ronit Shah,RA2_sheet
+TN-065,TN,plain,RA2,2026-08-26,EHGGS/R/2026/60001,,,Ronit Shah,RA2_sheet
+TN-069,TN,plain,RA2,2026-08-27,MCPKD/R/2026/60008,,,Ronit Shah,RA2_sheet
+TN-073,TN,plain,RA2,2026-08-27,CBTHJ/R/2026/60001,,,Ronit Shah,RA2_sheet
+TN-077,TN,plain,RA2,2026-08-27,ZHNGA/R/2026/60001,,,Ronit Shah,RA2_sheet
+TN-078,TN,legal_salience,RA2,2026-08-27,RARHN/R/2026/60001,,,Ronit Shah,RA2_sheet
+TN-080,TN,plain,RA2,2026-08-27,SRZSK/R/2026/60001,,,Ronit Shah,RA2_sheet
+TN-089,TN,plain,RA2,2026-08-27,SMWCQ/R/2026/60001,,,Ronit Shah,RA2_sheet
+TN-093,TN,plain,RA2,2026-08-27,HBTFN/R/2026/60001,,,Ronit Shah,RA2_sheet
+TN-094,TN,legal_salience,RA2,2026-08-27,NQMRZ/R/2026/60001,,,Ronit Shah,RA2_sheet
+TN-099,TN,legal_salience,RA2,2026-08-27,FCOLG/R/2026/60002,,,Ronit Shah,RA2_sheet
+TN-100,TN,plain,RA2,2026-08-27,IYTEI/R/2026/60001,,,Ronit Shah,RA2_sheet
+TN-102,TN,plain,RA2,2026-08-28,UNVJH/R/2026/60001,,,Ronit Shah,RA2_sheet
+TN-111,TN,plain,RA2,2026-08-28,COMBC/R/2026/60012,,,Ronit Shah,RA2_sheet
+TN-113,TN,legal_salience,RA2,2026-08-28,TAMCO/R/2026/60003,,,Ronit Shah,RA2_sheet
+TN-115,TN,legal_salience,RA2,2026-08-28,IENIJ/R/2026/60001,,,Ronit Shah,RA2_sheet
+TN-123,TN,plain,RA2,2026-08-28,CQJVO/R/2026/60001,,,Ronit Shah,RA2_sheet
+TN-128,TN,plain,RA2,2026-08-28,AZUEI/R/2026/60001,,,Ronit Shah,RA2_sheet
+TN-131,TN,plain,RA2,2026-08-29,WBMDU/R/2026/60010,,,Ronit Shah,RA2_sheet
+TN-136,TN,legal_salience,RA2,2026-08-29,COMME/R/2026/60465,,,Ronit Shah,RA2_sheet
+TN-137,TN,plain,RA2,2026-08-29,TNIGR/R/2026/60215,,,Ronit Shah,RA2_sheet
+TN-140,TN,plain,RA2,2026-08-29,WMYDX/R/2026/60001,,,Ronit Shah,RA2_sheet
+TN-142,TN,plain,RA2,2026-08-29,AOIRJ/R/2026/60001,,,Ronit Shah,RA2_sheet
+TN-146,TN,legal_salience,RA2,2026-08-29,BRBHW/R/2026/60002,,,Ronit Shah,RA2_sheet
+TN-151,TN,legal_salience,RA2,2026-08-29,AQJNF/R/2026/60005,,,Ronit Shah,RA2_sheet
+TN-153,TN,plain,RA2,2026-08-29,GRSTL/R/2026/60001,,,Ronit Shah,RA2_sheet
+TN-160,TN,plain,RA2,2026-08-29,CXUOQ/R/2026/60001,,,Ronit Shah,RA2_sheet
+TN-166,TN,plain,RA2,2026-08-29,XZHJS/R/2026/60001,,,Ronit Shah,RA2_sheet
+TN-172,TN,plain,RA2,2026-08-29,YJFZI/R/2026/60003,,,Ronit Shah,RA2_sheet
+TN-173,TN,legal_salience,RA2,2026-08-29,COOPE/R/2026/60271,,,Ronit Shah,RA2_sheet
+TN-181,TN,plain,RA2,2026-08-29,MDUDT/R/2026/60001,,,Ronit Shah,RA2_sheet
+TN-184,TN,plain,RA2,2026-08-29,TNKKM/R/2026/60001,,,Ronit Shah,RA2_sheet
+TN-192,TN,legal_salience,RA2,2026-08-29,EURFI/R/2026/60004,,,Ronit Shah,RA2_sheet
+TN-194,TN,legal_salience,RA2,2026-08-29,WIYEO/R/2026/60004,,,Ronit Shah,RA2_sheet
+TN-198,TN,plain,RA2,2026-08-29,YCXRC/R/2026/60002,,,Ronit Shah,RA2_sheet
+TN-200,TN,plain,RA2,2026-08-29,LMXED/R/2026/60002,,,Ronit Shah,RA2_sheet
+TN-204,TN,plain,RA2,2026-08-29,TNPGC/R/2026/60017,,,Ronit Shah,RA2_sheet
+TN-208,TN,plain,RA2,2026-08-30,GFYTW/R/2026/60002,,,Ronit Shah,RA2_sheet
+TN-210,TN,plain,RA2,2026-08-30,ESJMJ/R/2026/60003,,,Ronit Shah,RA2_sheet
+TN-211,TN,legal_salience,RA2,2026-08-30,CCWZI/R/2026/60001,,,Ronit Shah,RA2_sheet
+TN-212,TN,plain,RA2,2026-08-30,YMOOA/R/2026/60004,,,Ronit Shah,RA2_sheet
+TN-221,TN,legal_salience,RA2,2026-08-30,VCROR/R/2026/60002,,,Ronit Shah,RA2_sheet
+TN-223,TN,plain,RA2,2026-08-30,NWRJD/R/2026/60006,,,Ronit Shah,RA2_sheet
+TN-231,TN,plain,RA2,2026-09-02,TNTEA/R/2026/60001,,,Ronit Shah,RA2_sheet
+TN-235,TN,plain,RA2,2026-09-02,VGZIR/R/2026/60001,,,Ronit Shah,RA2_sheet
+TN-242,TN,legal_salience,RA2,2026-09-02,ILHBK/R/2026/60004,,,Ronit Shah,RA2_sheet
+TN-243,TN,plain,RA2,2026-09-02,CLAXL/R/2026/60002,,,Ronit Shah,RA2_sheet
+TN-245,TN,plain,RA2,,,,,Ronit Shah,RA2_sheet
+TN-247,TN,plain,RA2,2026-09-02,OUGCP/R/2026/60003,,,Ronit Shah,RA2_sheet
+TN-252,TN,legal_salience,RA2,2026-09-02,VVYTP/R/2026/60003,,,Ronit Shah,RA2_sheet
+TN-257,TN,legal_salience,RA2,2026-09-02,ZAGPS/R/2026/60001,,,Ronit Shah,RA2_sheet
+TN-265,TN,plain,RA2,2026-09-02,DGYWT/R/2026/60001,,,Ronit Shah,RA2_sheet
+TN-266,TN,legal_salience,RA2,2026-09-02,VHSQF/R/2026/60001,,,Ronit Shah,RA2_sheet
+TN-268,TN,plain,RA2,2026-09-02,QSDMI/R/2026/60001,,,Ronit Shah,RA2_sheet
+TN-270,TN,plain,RA2,2026-09-02,WNWTN/R/2026/60001,,,Ronit Shah,RA2_sheet
+TN-278,TN,plain,RA2,2026-09-02,YFASC/R/2026/60001,,,Ronit Shah,RA2_sheet
+TN-283,TN,legal_salience,RA2,2026-09-02,DOSDR/R/2026/60003,,,Ronit Shah,RA2_sheet
+TN-284,TN,plain,RA2,2026-09-02,TNKVB/R/2026/60003,,,Ronit Shah,RA2_sheet
+TN-289,TN,plain,RA2,2026-09-22,,,,,RA2_sheet
+TG-001,TG,plain,RA4,,,,,,RA2_sheet
+TG-002,TG,plain,RA2,2026-09-04,TGRTI/APP/MAN/04/09/26/DI/33521,Awaiting response,NA,,RA2_sheet
+TG-003,TG,plain,RA4,,,,,,RA2_sheet
+TG-004,TG,plain,RA3,,TGRTI/APP/AGR/06/09/26/DI/33752,,,,RA2_sheet
+TG-005,TG,plain,RA2,2026-09-04,TGRTI/APP/V\&A/04/09/26/MA/33524,Awaiting response,NA,,RA2_sheet
+TG-006,TG,plain,RA4,,,,,,RA2_sheet
+TG-007,TG,plain,RA4,,,,,,RA2_sheet
+TG-008,TG,plain,RA2,2026-09-04,TGRTI/APP/V\&A/04/09/26/MA/33528,Awaiting response,NA,,RA2_sheet
+TG-009,TG,legal_salience,RA4,,,,,,RA2_sheet
+TG-010,TG,plain,RA3,,TGRTI/APP/V\&A/06/09/26/MA/33753,,,,RA2_sheet
+TG-011,TG,plain,RA1,,TGRTI/APP/V\&A/04/09/26/MA/33562,,,,RA2_sheet
+TG-012,TG,plain,RA4,,,,,,RA2_sheet
+TG-013,TG,plain,RA4,,,,,,RA2_sheet
+TG-014,TG,legal_salience,RA2,2026-09-04,TGRTI/APP/V\&A/04/09/26/MA/33529,Awaiting response,NA,,RA2_sheet
+TG-015,TG,plain,RA3,,TGRTI/APP/V\&A/06/09/26/MA/33754,,,,RA2_sheet
+TG-016,TG,plain,RA4,,,,,,RA2_sheet
+TG-017,TG,plain,RA2,2026-09-04,TGRTI/APP/V\&A/04/09/26/MA/33530,Awaiting response,NA,,RA2_sheet
+TG-018,TG,legal_salience,RA3,,TGRTI/APP/V\&A/06/09/26/MA/33755,,,,RA2_sheet
+TG-019,TG,plain,RA2,2026-09-04,TGRTI/APP/V\&A/04/09/26/MA/33563,Awaiting response,NA,,RA2_sheet
+TG-020,TG,plain,RA3,,TGRTI/APP/ANI/06/09/26/SE/33756,,,,RA2_sheet
+TG-021,TG,plain,RA2,2026-09-04,TGRTI/APP/FIS/04/09/26/DI/33566,Awaiting response,NA,,RA2_sheet
+TG-022,TG,legal_salience,RA2,2026-09-04,TGRTI/APP/ANI/04/09/26/ST/33567,Awaiting response,NA,,RA2_sheet
+TG-023,TG,legal_salience,RA1,,TGRTI/APP/V\&A/04/09/26/MA/33564,,,,RA2_sheet
+TG-024,TG,plain,RA3,,TGRTI/APP/V\&A/06/09/26/DI/33757,,,,RA2_sheet
+TG-025,TG,plain,RA3,,TGRTI/APP/V\&A/06/09/26/DI/33758,,,,RA2_sheet
+TG-026,TG,plain,RA3,,TGRTI/APP/B.C/06/09/26/DI/33759,,,,RA2_sheet
+TG-027,TG,plain,RA2,2026-09-04,TGRTI/APP/B.C/04/09/26/DI/33570,Awaiting response,NA,,RA2_sheet
+TG-028,TG,plain,RA4,,,,,,RA2_sheet
+TG-029,TG,plain,RA3,,TGRTI/APP/CON/06/09/26/DI/33760,,,,RA2_sheet
+TG-030,TG,plain,RA3,,TGRTI/APP/LEG/06/09/26/DI/33761,,,,RA2_sheet
+TG-031,TG,plain,RA1,,TGRTI/APP/CON/04/09/26/DI/33569,,,,RA2_sheet
+TG-032,TG,plain,RA1,,TGRTI/APP/CIV/04/09/26/DI/33571,,,,RA2_sheet
+TG-033,TG,plain,RA3,,TGRTI/APP/CIV/06/09/26/DI/33762,,,,RA2_sheet
+TG-034,TG,legal_salience,RA3,,TGRTI/APP/CIV/06/09/26/DI/33763,,,,RA2_sheet
+TG-035,TG,plain,RA2,2026-09-04,TGRTI/APP/CIV/04/09/26/DI/33572,Awaiting response,NA,,RA2_sheet
+TG-036,TG,plain,RA2,2026-09-04,TGRTI/APP/CIV/04/09/26/DI/33573,Awaiting response,NA,,RA2_sheet
+TG-037,TG,plain,RA3,,TGRTI/APP/CIV/06/09/26/DI/33764,,,,RA2_sheet
+TG-038,TG,plain,RA1,,TGRTI/APP/CON/04/09/26/DI/33576,,,,RA2_sheet
+TG-039,TG,legal_salience,RA2,2026-09-06,TGRTI/APP/DIS/06/09/26/DI/33706,Awaiting response,NA,,RA2_sheet
+TG-040,TG,plain,RA4,,,,,,RA2_sheet
+TG-041,TG,plain,RA1,,TGRTI/APP/COO/04/09/26/DI/33577,,,,RA2_sheet
+TG-042,TG,plain,RA1,,TGRTI/APP/COO/04/09/26/DI/33578,,,,RA2_sheet
+TG-043,TG,legal_salience,RA3,2026-09-16,TGRTI/APP/AGR/16/09/26/DI/34193,,,,RA2_sheet
+TG-044,TG,plain,RA4,,,,,,RA2_sheet
+TG-045,TG,plain,RA4,,,,,,RA2_sheet
+TG-046,TG,legal_salience,RA4,,,,,,RA2_sheet
+TG-047,TG,plain,RA4,,,,,,RA2_sheet
+TG-048,TG,legal_salience,RA1,,TGRTI/APP/EDU/04/09/26/MA/33579,,,,RA2_sheet
+TG-049,TG,plain,RA3,,TGRTI/APP/EDU/16/09/26/DI/34194,,,,RA2_sheet
+TG-050,TG,legal_salience,RA1,,TGRTI/APP/EDU/04/09/26/MA/33582,,,,RA2_sheet
+TG-051,TG,plain,RA2,2026-09-06,TGRTI/APP/TGF/06/09/26/ST/33707,Awaiting response,NA,,RA2_sheet
+TG-052,TG,legal_salience,RA3,,TGRTI/APP/TGF/16/09/26/DI/34195,,,,RA2_sheet
+TG-053,TG,plain,RA1,,TGRTI/APP/TGF/04/09/26/DI/33583,,,,RA2_sheet
+TG-054,TG,plain,RA4,,,,,,RA2_sheet
+TG-055,TG,plain,RA2,2026-09-06,TGRTI/APP/TGT/06/09/26/DI/33708,Awaiting response,NA,,RA2_sheet
+TG-056,TG,legal_salience,RA4,,,,,,RA2_sheet
+TG-057,TG,plain,RA2,2026-09-06,TGRTI/APP/DIS/06/09/26/DI/33709,Awaiting response,NA,,RA2_sheet
+TG-058,TG,plain,RA2,2026-09-06,TGRTI/APP/FOR/06/09/26/DI/33710,Awaiting response,NA,,RA2_sheet
+TG-059,TG,legal_salience,RA1,,TGRTI/APP/FOR/04/09/26/DI/33584,,,,RA2_sheet
+TG-060,TG,plain,RA4,,,,,,RA2_sheet
+TG-061,TG,legal_salience,RA2,2026-09-06,TGRTI/APP/SUB/06/09/26/DI/33712,Awaiting response,NA,,RA2_sheet
+TG-062,TG,plain,RA4,,,,,,RA2_sheet
+TG-063,TG,legal_salience,RA3,,TGRTI/APP/FIN/16/09/26/DI/34196,,,,RA2_sheet
+TG-064,TG,plain,RA2,2026-09-06,TGRTI/APP/HOM/06/09/26/MA/33713,Awaiting response,NA,,RA2_sheet
+TG-065,TG,plain,RA3,,TGRTI/APP/HOM/16/09/26/MA/34197,,,,RA2_sheet
+TG-066,TG,plain,RA4,,,,,,RA2_sheet
+TG-067,TG,plain,RA2,2026-09-06,TGRTI/APP/GRO/06/09/26/DI/33714,Awaiting response,NA,,RA2_sheet
+TG-068,TG,legal_salience,RA1,,TGRTI/APP/GRO/04/09/26/DI/33585,,,,RA2_sheet
+TG-069,TG,plain,RA3,,TGRTI/APP/GRO/16/09/26/DI/34198,,,,RA2_sheet
+TG-070,TG,plain,RA3,,TGRTI/APP/HEA/16/09/26/SE/34201,,,,RA2_sheet
+TG-071,TG,plain,RA4,,,,,,RA2_sheet
+TG-072,TG,plain,RA3,,TGRTI/APP/HEA/16/09/26/DI/34203,,,,RA2_sheet
+TG-073,TG,plain,RA4,,,,,,RA2_sheet
+TG-074,TG,plain,RA4,,,,,,RA2_sheet
+TG-075,TG,plain,RA2,2026-09-06,TGRTI/APP/HEA/06/09/26/DI/33715,Awaiting response,NA,,RA2_sheet
+TG-076,TG,legal_salience,RA3,,TGRTI/APP/HEA/16/09/26/DI/34204,,,,RA2_sheet
+TG-077,TG,plain,RA1,,TGRTI/APP/HEA/04/09/26/DI/33586,,,,RA2_sheet
+TG-078,TG,plain,RA2,2026-09-06,TGRTI/APP/INT/06/09/26/DI/33716,Awaiting response,NA,,RA2_sheet
+TG-079,TG,plain,RA2,2026-09-06,TGRTI/APP/HIG/06/09/26/DI/33717,Awaiting response,NA,,RA2_sheet
+TG-080,TG,plain,RA3,,TGRTI/APP/TEC/16/09/26/DI/34205,,,,RA2_sheet
+TG-081,TG,plain,RA2,2026-09-06,TGRTI/APP/HOM/06/09/26/DI/33719,Awaiting response,NA,,RA2_sheet
+TG-082,TG,legal_salience,RA2,2026-09-06,TGRTI/APP/HOM/06/09/26/ST/33720,Awaiting response,NA,,RA2_sheet
+TG-083,TG,plain,RA1,,TGRTI/APP/HOM/04/09/26/ST/33587,,,,RA2_sheet
+TG-084,TG,plain,RA1,,TGRTI/APP/HOM/04/09/26/ST/33589,,,,RA2_sheet
+TG-085,TG,plain,RA3,,TGRTI/APP/POL/16/09/26/DI/34206,,,,RA2_sheet
+TG-086,TG,plain,RA1,,TGRTI/APP/HOM/04/09/26/DI/33590,,,,RA2_sheet
+TG-087,TG,plain,RA1,,TGRTI/APP/HOM/04/09/26/DI/33591,,,,RA2_sheet
+TG-088,TG,plain,RA3,,TGRTI/APP/IND/20/09/26/DI/34375,,,,RA2_sheet
+TG-089,TG,legal_salience,RA4,,,,,,RA2_sheet
+TG-090,TG,legal_salience,RA2,2026-09-06,TGRTI/APP/IND/06/09/26/DI/33721,Awaiting response,NA,,RA2_sheet
+TG-091,TG,legal_salience,RA2,2026-09-06,TGRTI/APP/DIS/06/09/26/DI/33722,Awaiting response,NA,,RA2_sheet
+TG-092,TG,legal_salience,RA1,,TGRTI/APP/IRR/04/09/26/MA/33592,,,,RA2_sheet
+TG-093,TG,plain,RA1,,TGRTI/APP/IRR/04/09/26/DI/33594,,,,RA2_sheet
+TG-094,TG,plain,RA1,,,,same department as above,,RA2_sheet
+TG-095,TG,plain,RA2,2026-09-06,TGRTI/APP/IRR/06/09/26/DI/33723,Awaiting response,NA,,RA2_sheet
+TG-096,TG,plain,RA4,,,,,,RA2_sheet
+TG-097,TG,plain,RA2,2026-09-06,TGRTI/APP/IRR/06/09/26/DI/33742,Awaiting response,NA,,RA2_sheet
+TG-098,TG,legal_salience,RA3,,TGRTI/APP/IRR/20/09/26/DI/34376,,,,RA2_sheet
+TG-099,TG,plain,RA1,,TGRTI/APP/IRR/05/09/26/DI/33607,,,,RA2_sheet
+TG-100,TG,plain,RA1,,TGRTI/APP/IRR/05/09/26/DI/33608,,,,RA2_sheet
+TG-101,TG,legal_salience,RA2,2026-09-06,TGRTI/APP/IRR/06/09/26/DI/33744,Awaiting response,NA,,RA2_sheet
+TG-102,TG,plain,RA4,,,,,,RA2_sheet
+TG-103,TG,plain,RA1,,TGRTI/APP/DEP/05/09/26/DI/33609,,,,RA2_sheet
+TG-104,TG,plain,RA1,,TGRTI/APP/DIS/05/09/26/DI/33610,,,,RA2_sheet
+TG-105,TG,plain,RA2,2026-09-06,TGRTI/APP/LAB/06/09/26/DI/33745,Awaiting response,NA,,RA2_sheet
+TG-106,TG,plain,RA4,,,,,,RA2_sheet
+KA-001,KA,legal_salience,RA2,2026-09-11,AMCHA/R/2026/60001,Awaiting response,NA,Ronit,RA2_sheet
+KA-002,KA,plain,RA2,2026-09-11,AMCHI/R/2026/60004,Awaiting response,NA,Ronit,RA2_sheet
+KA-003,KA,legal_salience,RA2,2026-09-11,AMDHA/R/2026/60005,Awaiting response,NA,Ronit,RA2_sheet
+KA-004,KA,legal_salience,RA3,,,,,,RA2_sheet
+KA-005,KA,plain,RA4,,,,,,RA2_sheet
+KA-006,KA,legal_salience,RA3,,,,,,RA2_sheet
+KA-007,KA,legal_salience,RA3,,,,,,RA2_sheet
+KA-008,KA,plain,RA2,2026-09-11,AHDVG/R/2026/60003,Awaiting response,NA,Ronit,RA2_sheet
+KA-009,KA,plain,RA3,,,,,,RA2_sheet
+KA-010,KA,plain,RA3,,,,,,RA2_sheet
+KA-011,KA,plain,RA1,2026-09-12,AHMAN/R/2026/60018,,,,RA2_sheet
+KA-012,KA,plain,RA2,2026-09-11,BCRAM/R/2026/60009,Awaiting response,NA,Ronit,RA2_sheet
+KA-013,KA,plain,RA1,2026-09-12,BCVIJ/R/2026/60023,,,,RA2_sheet
+KA-014,KA,plain,RA4,,,,,,RA2_sheet
+KA-015,KA,plain,RA3,,,,,,RA2_sheet
+KA-016,KA,legal_salience,RA2,2026-09-11,BCKAL/R/2026/60017,Awaiting response,NA,Ronit,RA2_sheet
+KA-017,KA,plain,RA2,2026-09-11,KMCDC/R/2026/60003,Awaiting response,NA,Ronit,RA2_sheet
+KA-018,KA,plain,RA4,,,,,,RA2_sheet
+KA-019,KA,plain,RA2,2026-09-11,NWCME/R/2026/60003,Awaiting response,NA,Ronit,RA2_sheet
+KA-020,KA,plain,RA4,,,,,,RA2_sheet
+KA-021,KA,plain,RA2,2026-09-11,KALCC/R/2026/60069,Awaiting response,NA,Ronit,RA2_sheet
+KA-022,KA,legal_salience,RA1,2026-09-12,VIJCC/R/2026/60065,,,,RA2_sheet
+KA-023,KA,plain,RA4,,,,,,RA2_sheet
+KA-024,KA,legal_salience,RA3,,,,,,RA2_sheet
+KA-025,KA,legal_salience,RA1,2026-09-15,CIARD/R/2026/60121,,,,RA2_sheet
+KA-026,KA,plain,RA3,,,,,,RA2_sheet
+KA-027,KA,plain,RA3,,,,,,RA2_sheet
+KA-028,KA,legal_salience,RA4,,,,,,RA2_sheet
+KA-029,KA,plain,RA2,2026-09-11,UTTKA/R/2026/60033,Awaiting response,NA,Ronit,RA2_sheet
+KA-030,KA,legal_salience,RA2,2026-09-11,CFBEL/R/2026/60003,Awaiting response,NA,Ronit,RA2_sheet
+KA-031,KA,plain,RA2,2026-09-12,CFUTT/R/2026/60001,Awaiting response,NA,Ronit,RA2_sheet
+KA-032,KA,legal_salience,RA4,,,,,,RA2_sheet
+KA-033,KA,plain,RA2,2026-09-12,CFBAL/R/2026/60001,Awaiting response,NA,Ronit,RA2_sheet
+KA-034,KA,plain,RA1,2026-09-15,CFYAD/R/2026/60004,,,,RA2_sheet
+KA-035,KA,plain,RA1,2026-09-15,CFBRU/R/2026/60004,,,,RA2_sheet
+KA-036,KA,legal_salience,RA1,2026-09-15,CMGDR/R/2026/60031,,,,RA2_sheet
+KA-037,KA,plain,RA1,,,,Not found the department,,RA2_sheet
+KA-038,KA,legal_salience,RA3,,,,,,RA2_sheet
+KA-039,KA,plain,RA3,,,,,,RA2_sheet
+KA-040,KA,plain,RA2,2026-09-12,ETBRN/R/2026/60011,Awaiting response,NA,Ronit,RA2_sheet
+KA-041,KA,plain,RA4,,,,,,RA2_sheet
+KA-042,KA,plain,RA3,,,,,,RA2_sheet
+KA-043,KA,plain,RA4,,,,,,RA2_sheet
+KA-044,KA,plain,RA3,,,,,,RA2_sheet
+KA-045,KA,plain,RA1,2026-09-15,TIVIJ/R/2026/60002,,,,RA2_sheet
+KA-046,KA,plain,RA2,2026-09-12,DTBRU/R/2026/60003,Awaiting response,NA,Ronit,RA2_sheet
+KA-047,KA,plain,RA2,2026-09-12,&#9;DTCHA/R/2026/60001,Awaiting response,NA,Ronit,RA2_sheet
+KA-048,KA,plain,RA3,,,,,,RA2_sheet
+KA-049,KA,plain,RA3,,,,,,RA2_sheet
+KA-050,KA,plain,RA3,,,,,,RA2_sheet
+KA-051,KA,legal_salience,RA2,2026-09-12,CHIDR/R/2026/60033,Awaiting response,NA,Ronit,RA2_sheet
+KA-052,KA,plain,RA2,2026-09-12,RAIDR/R/2026/60016,Awaiting response,NA,Ronit,RA2_sheet
+KA-053,KA,plain,RA3,,,,,,RA2_sheet
+KA-054,KA,plain,RA4,,,,,,RA2_sheet
+KA-055,KA,legal_salience,RA2,2026-09-12,UDHAS/R/2026/60016,RTI returned to applicant on 2026-09-19,NA,Ronit,RA2_sheet
+KA-056,KA,legal_salience,RA1,2026-09-16,UDKAL/R/2026/60019,,,,RA2_sheet
+KA-057,KA,plain,RA2,2026-09-12,DEBAL/R/2026/60006,RTI disposed off on 2026-09-18,NA,Ronit,RA2_sheet
+KA-058,KA,legal_salience,RA1,2026-09-16,DEBID/R/2026/60012,,,,RA2_sheet
+KA-059,KA,legal_salience,RA1,2026-09-16,FCCHK/R/2026/60007,,,,RA2_sheet
+KA-060,KA,legal_salience,RA1,2026-09-16,FCDAV/R/2026/60003,,,,RA2_sheet
+KA-061,KA,legal_salience,RA2,2026-09-13,FCGAD/R/2026/60004,Awaiting response,NA,Ronit,RA2_sheet
+KA-062,KA,plain,RA1,2026-09-16,FCSHI/R/2026/60010,,,,RA2_sheet
+KA-063,KA,plain,RA3,,,,,,RA2_sheet
+KA-064,KA,plain,RA3,,,,,,RA2_sheet
+KA-065,KA,plain,RA3,,,,,,RA2_sheet
+KA-066,KA,plain,RA3,,,,,,RA2_sheet
+KA-067,KA,plain,RA1,2026-09-16,ARBCC/R/2026/60010,,,,RA2_sheet
+KA-068,KA,legal_salience,RA3,,,,,,RA2_sheet
+KA-069,KA,plain,RA1,2026-09-16,HDDHA/R/2026/60011,,,,RA2_sheet
+KA-070,KA,plain,RA4,,,,,,RA2_sheet
+KA-071,KA,legal_salience,RA4,,,,,,RA2_sheet
+KA-072,KA,legal_salience,RA3,,,,,,RA2_sheet
+KA-073,KA,legal_salience,RA2,2026-09-13,ICBAL/R/2026/60005,Awaiting response,NA,Ronit,RA2_sheet
+KA-074,KA,plain,RA4,,,,,,RA2_sheet
+KA-075,KA,plain,RA1,2026-09-16,IGICH/R/2026/60007,,,,RA2_sheet
+KA-076,KA,plain,RA4,,,,,,RA2_sheet
+KA-077,KA,plain,RA4,,,,,,RA2_sheet
+KA-078,KA,plain,RA1,2026-09-20,SEIPR/R/2026/60038,,,,RA2_sheet
+KA-079,KA,plain,RA4,,,,,,RA2_sheet
+KA-080,KA,legal_salience,RA3,,,,,,RA2_sheet
+KA-081,KA,plain,RA4,,,,,,RA2_sheet
+KA-082,KA,plain,RA4,,,,,,RA2_sheet
+KA-083,KA,plain,RA2,2026-09-13,MVBEL/R/2026/60002,Awaiting response,NA,Ronit,RA2_sheet
+KA-084,KA,legal_salience,RA4,,,,,,RA2_sheet
+KA-085,KA,plain,RA2,2026-09-13,MVMYS/R/2026/60003,Awaiting response,NA,Ronit,RA2_sheet
+KA-086,KA,plain,RA3,,,,,,RA2_sheet
+KA-087,KA,plain,RA3,,,,,,RA2_sheet
+KA-088,KA,plain,RA2,2026-09-13,SBDHA/R/2026/60015,Awaiting response,NA,Ronit,RA2_sheet
+KA-089,KA,plain,RA3,,,,,,RA2_sheet
+KA-090,KA,plain,RA4,,,,,,RA2_sheet
+KA-091,KA,plain,RA3,,,,,,RA2_sheet
+KA-092,KA,plain,RA4,,,,,,RA2_sheet
+KA-093,KA,legal_salience,RA4,,,,,,RA2_sheet
+KA-094,KA,plain,RA2,2026-09-13,PCBID/R/2026/60006,Awaiting response,NA,Ronit,RA2_sheet
+DL-003,DL,plain,RA2,2026-09-19,DOOBC/R/2026/60024,Awaiting response,NA,Ronit,RA2_sheet
+DL-007,DL,legal_salience,RA2,2026-09-19,&#9;DPCCM/R/2026/60240,Awaiting response,NA,Ronit,RA2_sheet
+DL-008,DL,plain,RA2,2026-09-19,DHFDC/R/2026/60019,Awaiting response,NA,Ronit,RA2_sheet
+DL-010,DL,plain,RA2,2026-09-19,&#9;DISMH/R/2026/60009,Awaiting response,NA,Ronit,RA2_sheet
+DL-014,DL,plain,RA2,2026-09-21,HEDUD/R/2026/60131,Awaiting response,NA,Ronit,RA2_sheet
+DL-021,DL,legal_salience,RA2,2026-09-21,PSSED/R/2026/60030,Awaiting response,NA,Ronit,RA2_sheet
+MH-005,MH,plain,RA2,2026-09-21,NMCPO/R/2026/60401,Awaiting response,NA,Ronit,RA2_sheet
+MH-010,MH,plain,RA2,2026-09-21,NGCMO/R/2026/60099,Awaiting response,NA,Ronit,RA2_sheet
+MH-016,MH,plain,RA2,2026-09-21,,Awaiting response,NA,Ronit,RA2_sheet
+MH-017,MH,legal_salience,RA2,2026-09-21,,Awaiting response,NA,Ronit,RA2_sheet
+MH-026,MH,legal_salience,RA2,2026-09-21,,Awaiting response,NA,Ronit,RA2_sheet
+MH-027,MH,plain,RA2,2026-09-21,,Awaiting response,NA,Ronit,RA2_sheet
+MH-028,MH,plain,RA2,2026-09-21,,Awaiting response,NA,Ronit,RA2_sheet
+MH-033,MH,plain,RA2,2026-09-21,,Awaiting response,NA,Ronit,RA2_sheet
+TN-026,TN,legal_salience,RA1,2026-08-28,,,,,RA1_sheet
+TN-029,TN,plain,RA1,2026-08-28,NDJHQ/R/2026/60012,,,SHRADDHA,RA1_sheet
+TN-030,TN,plain,RA1,2026-08-28,JXZFU/R/2026/60001,,,SHRADDHA,RA1_sheet
+TN-031,TN,plain,RA4,,,,,,RA1_sheet
+TN-032,TN,plain,RA1,2026-08-28,SLTKF/R/2026/60001,,,,RA1_sheet
+TN-033,TN,plain,RA4,,,,,,RA1_sheet
+TN-034,TN,plain,RA3,,,,,,RA1_sheet
+TN-036,TN,plain,RA3,,,,,,RA1_sheet
+TN-037,TN,plain,RA3,,,,,,RA1_sheet
+TN-039,TN,legal_salience,RA4,,,,,,RA1_sheet
+TN-040,TN,plain,RA1,2026-08-28,TKNUT/R/2026/60003,,,,RA1_sheet
+TN-041,TN,legal_salience,RA3,,,,,,RA1_sheet
+TN-042,TN,plain,RA1,2026-08-28,GDPPN/R/2026/60001,,,,RA1_sheet
+TN-043,TN,legal_salience,RA4,,,,,,RA1_sheet
+TN-044,TN,legal_salience,RA1,2026-08-28,BMANZ/R/2026/60001,,,,RA1_sheet
+TN-045,TN,plain,RA4,,,,,,RA1_sheet
+TN-046,TN,plain,RA4,,,,,,RA1_sheet
+TN-048,TN,legal_salience,RA1,2026-08-28,NDJHQ/R/2026/60013,,,,RA1_sheet
+TN-049,TN,plain,RA3,,,,,,RA1_sheet
+TN-050,TN,legal_salience,RA3,,,,,,RA1_sheet
+TN-053,TN,plain,RA3,,,,,,RA1_sheet
+TN-054,TN,plain,RA4,,,,,,RA1_sheet
+TN-056,TN,legal_salience,RA3,,,,,,RA1_sheet
+TN-057,TN,legal_salience,RA1,2026-08-28,VSWJU/R/2026/60001,,,,RA1_sheet
+TN-058,TN,legal_salience,RA4,,,,,,RA1_sheet
+TN-059,TN,legal_salience,RA3,,,,,,RA1_sheet
+TN-061,TN,plain,RA4,,,,,,RA1_sheet
+TN-062,TN,legal_salience,RA3,,,,,,RA1_sheet
+TN-063,TN,plain,RA3,,,,,,RA1_sheet
+TN-064,TN,plain,RA1,2026-08-28,FYSDK/R/2026/60003,,,,RA1_sheet
+TN-066,TN,plain,RA1,2026-08-29,YXBXF/R/2026/60001,,,,RA1_sheet
+TN-067,TN,plain,RA4,,,,,,RA1_sheet
+TN-068,TN,plain,RA4,,,,,,RA1_sheet
+TN-070,TN,legal_salience,RA1,2026-08-29,WLVLW/R/2026/60002,,,,RA1_sheet
+TN-071,TN,plain,RA3,,,,,,RA1_sheet
+TN-072,TN,legal_salience,RA4,,,,,,RA1_sheet
+TN-074,TN,plain,RA4,,,,,,RA1_sheet
+TN-075,TN,plain,RA1,2026-08-29,TEMOY/R/2026/60001,,,,RA1_sheet
+TN-076,TN,plain,RA3,,,,,,RA1_sheet
+TN-079,TN,plain,RA3,,,,,,RA1_sheet
+TN-081,TN,plain,RA1,2026-08-29,AMTOM/R/2026/60001,,,,RA1_sheet
+TN-082,TN,plain,RA1,2026-08-29,TEMOY/R/2026/60002,,,,RA1_sheet
+TN-083,TN,legal_salience,RA4,,,,,,RA1_sheet
+TN-084,TN,plain,RA1,2026-08-29,COFFW/R/2026/60021,,,,RA1_sheet
+TN-085,TN,plain,RA4,,,,,,RA1_sheet
+TN-086,TN,plain,RA3,,,,,,RA1_sheet
+TN-087,TN,legal_salience,RA1,2026-08-29,TNFDC/R/2026/60005,,,,RA1_sheet
+TN-088,TN,plain,RA3,,,,,,RA1_sheet
+TN-090,TN,legal_salience,RA4,,,,,,RA1_sheet
+TN-091,TN,legal_salience,RA3,,,,,,RA1_sheet
+TN-092,TN,legal_salience,RA1,2026-08-29,NYJHN/R/2026/60001,,,,RA1_sheet
+TN-103,TN,plain,RA1,2026-08-29,JNLIT/R/2026/60001,,,,RA1_sheet
+TN-106,TN,plain,RA1,2026-08-29,EVKHK/R/2026/60003,,,,RA1_sheet
+TN-108,TN,plain,RA1,2026-08-29,UHHGB/R/2026/60002,,,,RA1_sheet
+TN-110,TN,legal_salience,RA1,2026-08-29,COMBC/R/2026/60013,,,,RA1_sheet
+TN-112,TN,plain,RA1,2026-08-29,TNDCW/R/2026/60003,,,,RA1_sheet
+TN-116,TN,plain,RA1,2026-08-29,VSMBZ/R/2026/60002,,,,RA1_sheet
+TN-121,TN,plain,RA1,2026-08-29,GGSHX/R/2026/60001,,,,RA1_sheet
+TN-125,TN,legal_salience,RA1,2026-08-29,BGFOI/R/2026/60001,,,,RA1_sheet
+TN-132,TN,plain,RA1,2026-08-29,WBPME/R/2026/60008,,,,RA1_sheet
+TN-133,TN,plain,RA1,2026-08-29,WBTNJ/R/2026/60004,,,,RA1_sheet
+TN-135,TN,legal_salience,RA1,2026-08-29,WBVLR/R/2026/60009,,,,RA1_sheet
+TN-141,TN,plain,RA1,2026-08-29,FBMXS/R/2026/60001,,,,RA1_sheet
+TN-148,TN,plain,RA1,2026-08-31,XHXBM/R/2026/60001,,,,RA1_sheet
+TN-149,TN,plain,RA1,2026-08-31,MGOPI/R/2026/60009,,,,RA1_sheet
+TN-158,TN,legal_salience,RA1,2026-08-31,BVQJZ/R/2026/60004,,,,RA1_sheet
+TN-162,TN,plain,RA1,2026-08-31,YUNTJ/R/2026/60002,,,,RA1_sheet
+TN-167,TN,plain,RA1,2026-08-31,UJFMG/R/2026/60001,,,,RA1_sheet
+TN-168,TN,legal_salience,RA1,2026-08-31,IPOFH/R/2026/60002,,,,RA1_sheet
+TN-169,TN,plain,RA1,2026-08-31,BLLPO/R/2026/60001,,,,RA1_sheet
+TN-170,TN,legal_salience,RA1,2026-08-31,JVRAT/R/2026/60002,,,,RA1_sheet
+TN-174,TN,plain,RA1,2026-09-01,RCSRT/R/2026/60068,,,,RA1_sheet
+TN-178,TN,plain,RA1,2026-09-01,CSCPY/R/2026/60004,,,,RA1_sheet
+TN-180,TN,plain,RA1,2026-09-01,RMDDT/R/2026/60001,,,,RA1_sheet
+TN-188,TN,plain,RA1,2026-09-01,TXDPC/R/2026/60003,,,,RA1_sheet
+TN-189,TN,legal_salience,RA1,2026-09-01,HWICT/R/2026/60001,,,,RA1_sheet
+TN-190,TN,plain,RA1,2026-09-01,YXZGS/R/2026/60002,,,,RA1_sheet
+TN-197,TN,legal_salience,RA1,2026-09-01,XIXSX/R/2026/60002,,,,RA1_sheet
+TN-207,TN,plain,RA1,2026-09-01,IKATA/R/2026/60001,,,,RA1_sheet
+TN-214,TN,legal_salience,RA1,2026-09-01,UACHT/R/2026/60002,,,,RA1_sheet
+TN-215,TN,plain,RA1,2026-09-01,MJHRY/R/2026/60001,,,,RA1_sheet
+TN-224,TN,plain,RA1,2026-09-01,ONPJF/R/2026/60001,,,,RA1_sheet
+TN-225,TN,plain,RA1,2026-09-01,VJUKI/R/2026/60002,,,,RA1_sheet
+TN-226,TN,legal_salience,RA1,2026-09-01,DIJTY/R/2026/60001,,,,RA1_sheet
+TN-232,TN,plain,RA1,2026-09-01,RVMYI/R/2026/60002,,,,RA1_sheet
+TN-233,TN,legal_salience,RA1,2026-09-01,NUEOJ/R/2026/60071,,,,RA1_sheet
+TN-234,TN,plain,RA1,2026-09-01,SOCIW/R/2026/60002,,,,RA1_sheet
+TN-236,TN,plain,RA1,2026-09-01,THIFY/R/2026/60001,,,,RA1_sheet
+TN-238,TN,legal_salience,RA1,2026-09-01,ZQFCA/R/2026/60001,,,,RA1_sheet
+TN-240,TN,plain,RA1,2026-09-01,VCCEI/R/2026/60008,,,,RA1_sheet
+TN-249,TN,plain,RA1,2026-09-01,TCDHL/R/2026/60002,,,,RA1_sheet
+TN-256,TN,legal_salience,RA1,2026-09-01,FINAN/R/2026/60330,,,,RA1_sheet
+TN-260,TN,plain,RA1,2026-09-01,NMRPR/R/2026/60049,,,,RA1_sheet
+TN-271,TN,legal_salience,RA1,2026-09-01,ZXEJV/R/2026/60001,,,,RA1_sheet
+TN-274,TN,plain,RA1,2026-09-01,KMNEA/R/2026/60001,,,,RA1_sheet
+TN-276,TN,plain,RA1,2026-09-01,GOJEH/R/2026/60002,,,,RA1_sheet
+TN-280,TN,plain,RA1,2026-09-01,QYHJO/R/2026/60004,,,,RA1_sheet
+TN-281,TN,legal_salience,RA1,2026-09-01,HANDL/R/2026/60038,,,,RA1_sheet
+TN-285,TN,plain,RA1,2026-09-01,TNHDC/R/2026/60002,,,,RA1_sheet
+TN-288,TN,plain,RA1,2026-09-01,ZRCJO/R/2026/60001,,,,RA1_sheet
+TN-293,TN,legal_salience,RA1,2026-09-01,YJXXX/R/2026/60001,,,,RA1_sheet
+TN-299,TN,plain,RA1,2026-09-01,TJUXP/R/2026/60001,,,,RA1_sheet
+TG-115,TG,legal_salience,RA1,,TGRTI/APP/MIN/05/09/26/DI/33611,,,,RA1_sheet
+TG-117,TG,legal_salience,RA1,,TGRTI/APP/MIN/05/09/26/DI/33612,,,,RA1_sheet
+TG-121,TG,plain,RA1,,TGRTI/APP/REV/05/09/26/DI/33613,,,,RA1_sheet
+TG-124,TG,legal_salience,RA1,,TGRTI/APP/PAN/05/09/26/MA/33614,,,,RA1_sheet
+TG-125,TG,plain,RA1,,TGRTI/APP/PAN/05/09/26/MA/33615,,,,RA1_sheet
+TG-129,TG,legal_salience,RA1,,TGRTI/APP/PAN/05/09/26/DI/33616,,,,RA1_sheet
+TG-132,TG,plain,RA1,,TGRTI/APP/PAN/05/09/26/DI/33618,,,,RA1_sheet
+TG-139,TG,plain,RA1,,TGRTI/APP/PAN/05/09/26/DI/33620,,,,RA1_sheet
+TG-142,TG,plain,RA1,,TGRTI/APP/MIS/05/09/26/DI/33621,,,,RA1_sheet
+TG-144,TG,legal_salience,RA1,,TGRTI/APP/PAN/05/09/26/DI/33622,,,,RA1_sheet
+TG-150,TG,plain,RA1,,TGRTI/APP/MIS/05/09/26/DI/33623,,,,RA1_sheet
+TG-152,TG,plain,RA1,,TGRTI/APP/PAN/05/09/26/DI/33624,,,,RA1_sheet
+TG-158,TG,plain,RA1,,TGRTI/APP/DIR/05/09/26/DI/33625,,,,RA1_sheet
+TG-161,TG,plain,RA1,,TGRTI/APP/REG/05/09/26/DI/33626,,,,RA1_sheet
+TG-164,TG,plain,RA1,,TGRTI/APP/REG/05/09/26/DI/33627,,,,RA1_sheet
+TG-170,TG,plain,RA1,,TGRTI/APP/REV/05/09/26/DI/33633,,,,RA1_sheet
+TG-178,TG,plain,RA1,,TGRTI/APP/REV/05/09/26/MA/33642,,,,RA1_sheet
+TG-183,TG,plain,RA1,,TGRTI/APP/REV/05/09/26/DI/33643,,,,RA1_sheet
+TG-184,TG,legal_salience,RA1,,TGRTI/APP/REV/05/09/26/MA/33645,,,,RA1_sheet
+TG-187,TG,plain,RA1,,TGRTI/APP/DIS/05/09/26/DI/33647,,,,RA1_sheet
+TG-196,TG,legal_salience,RA1,,TGRTI/APP/SCH/05/09/26/DI/33648,,,,RA1_sheet
+TG-197,TG,plain,RA1,,TGRTI/APP/DIS/05/09/26/DI/33649,,,,RA1_sheet
+TG-200,TG,plain,RA1,,TGRTI/APP/HOM/05/09/26/DI/33650,,,,RA1_sheet
+TG-202,TG,legal_salience,RA1,,TGRTI/APP/SUR/05/09/26/DI/33651,,,,RA1_sheet
+TG-208,TG,plain,RA1,,TGRTI/APP/REV/05/09/26/DI/33652,,,,RA1_sheet
+TG-213,TG,plain,RA1,,TGRTI/APP/REV/05/09/26/MA/33653,,,,RA1_sheet
+TG-216,TG,legal_salience,RA1,,TGRTI/APP/REV/05/09/26/MA/33664,,,,RA1_sheet
+TG-218,TG,legal_salience,RA1,,TGRTI/APP/HEA/05/09/26/ST/33665,,,,RA1_sheet
+TG-219,TG,plain,RA1,,TGRTI/APP/TEL/05/09/26/DI/33666,,,,RA1_sheet
+TG-221,TG,legal_salience,RA1,,TGRTI/APP/TEL/05/09/26/DI/33668,,,,RA1_sheet
+TG-226,TG,legal_salience,RA1,,TGRTI/APP/TRA/05/09/26/DI/33669,,,,RA1_sheet
+TG-227,TG,plain,RA1,,TGRTI/APP/TRA/05/09/26/DI/33671,,,,RA1_sheet
+TG-233,TG,plain,RA1,,TGRTI/APP/TRA/05/09/26/DI/33672,,,,RA1_sheet
+TG-234,TG,legal_salience,RA1,,TGRTI/APP/TRA/05/09/26/DI/33673,,,,RA1_sheet
+TG-236,TG,plain,RA1,,TGRTI/APP/R\&B/05/09/26/DI/33674,,,,RA1_sheet
+TG-241,TG,plain,RA1,,TGRTI/APP/ANI/05/09/26/MA/33675,,,,RA1_sheet
+TG-242,TG,plain,RA1,,TGRTI/APP/ANI/05/09/26/MA/33676,,,,RA1_sheet
+TG-245,TG,plain,RA1,,TGRTI/APP/ANI/06/09/26/MA/33750,,,,RA1_sheet
+TG-247,TG,plain,RA1,,TGRTI/APP/WOM/06/09/26/DI/33751,,,,RA1_sheet
+TG-109,TG,legal_salience,RA3,,TGRTI/APP/FCT/20/09/26/DI/34387,,,,RA1_sheet
+TG-112,TG,plain,RA3,,TGRTI/APP/LAB/20/09/26/DI/34388,,,,RA1_sheet
+TG-113,TG,legal_salience,RA3,,TGRTI/APP/LAB/20/09/26/DI/34389,,,,RA1_sheet
+TG-116,TG,legal_salience,RA3,,TGRTI/APP/MIN/20/09/26/SE/34390,,,,RA1_sheet
+TG-118,TG,plain,RA3,,TGRTI/APP/MUN/20/09/26/DI/34391,,,,RA1_sheet
+TG-119,TG,plain,RA3,,TGRTI/APP/MUN/20/09/26/MA/34392,,,,RA1_sheet
+TG-120,TG,plain,RA3,,TGRTI/APP/MUN/20/09/26/DI/34393,,,,RA1_sheet
+TG-126,TG,legal_salience,RA3,,TGRTI/APP/PAN/20/09/26/SE/34394,,,,RA1_sheet
+TG-130,TG,plain,RA3,,TGRTI/APP/PAN/20/09/26/DI/34395,,,,RA1_sheet
+TG-135,TG,plain,RA3,,TGRTI/APP/PAN/20/09/26/MA/34396,,,,RA1_sheet
+TG-141,TG,plain,RA3,,TGRTI/APP/MPP/20/09/26/DI/34397,,,,RA1_sheet
+TG-143,TG,plain,RA3,,TGRTI/APP/PAN/20/09/26/MA/34402,,,,RA1_sheet
+TG-151,TG,legal_salience,RA3,,TGRTI/APP/PAN/20/09/26/DI/34403,,,,RA1_sheet
+TG-156,TG,legal_salience,RA3,,TGRTI/APP/PAN/20/09/26/DI/34404,,,,RA1_sheet
+TG-157,TG,plain,RA3,,TGRTI/APP/DIS/20/09/26/DI/34405,,,,RA1_sheet
+TG-160,TG,legal_salience,RA3,,TGRTI/APP/MUN/20/09/26/MA/34406,,,,RA1_sheet
+TG-162,TG,plain,RA3,,TGRTI/APP/REG/20/09/26/DI/34407,,,,RA1_sheet
+TG-163,TG,plain,RA3,,TGRTI/APP/REG/20/09/26/DI/34408,,,,RA1_sheet
+TG-168,TG,plain,RA3,,TGRTI/APP/REV/20/09/26/DI/34409,,,,RA1_sheet
+TG-171,TG,plain,RA3,,TGRTI/APP/REV/20/09/26/DI/34410,,,,RA1_sheet
+TG-174,TG,plain,RA3,,TGRTI/APP/REV/20/09/26/DI/34411,,,,RA1_sheet
+TG-176,TG,plain,RA3,,TGRTI/APP/REV/20/09/26/MA/34412,,,,RA1_sheet
+TG-179,TG,plain,RA3,,TGRTI/APP/REV/20/09/26/MA/34413,,,,RA1_sheet
+TG-180,TG,legal_salience,RA3,,TGRTI/APP/REV/20/09/26/DI/34420,,,,RA1_sheet
+TG-186,TG,plain,RA3,,TGRTI/APP/SC /20/09/26/MA/34427,,,,RA1_sheet
+TG-189,TG,legal_salience,RA3,,TGRTI/APP/SC./20/09/26/DI/34428,,,,RA1_sheet
+TG-191,TG,plain,RA3,,TGRTI/APP/SC./20/09/26/DI/34429,,,,RA1_sheet
+TG-192,TG,plain,RA3,,TGRTI/APP/SCH/20/09/26/ST/34430,,,,RA1_sheet
+TG-193,TG,plain,RA3,,TGRTI/APP/SCH/20/09/26/DI/34431,,,,RA1_sheet
+TG-198,TG,legal_salience,RA3,,TGRTI/APP/EDU/20/09/26/DI/34433,,,,RA1_sheet
+TG-206,TG,legal_salience,RA3,,TGRTI/APP/REV/20/09/26/MA/34435,,,,RA1_sheet
+TG-209,TG,plain,RA3,,TGRTI/APP/REV/20/09/26/DI/34436,,,,RA1_sheet
+TG-217,TG,legal_salience,RA3,,TGRTI/APP/REV/20/09/26/MA/34437,,,,RA1_sheet
+TG-222,TG,plain,RA3,,TGRTI/APP/TRA/20/09/26/DI/34438,,,,RA1_sheet
+TG-232,TG,plain,RA3,,TGRTI/APP/TRA/20/09/26/DI/34439,,,,RA1_sheet
+TG-240,TG,plain,RA3,,TGRTI/APP/TRI/20/09/26/DI/34440,,,,RA1_sheet
+KA-097,KA,plain,RA1,2026-09-20,PTBGK/R/2026/60058,,,,RA1_sheet
+KA-104,KA,legal_salience,RA1,2026-09-20,PAMUR/R/2026/60010,,,,RA1_sheet
+KA-110,KA,plain,RA1,2026-09-20,MWCHI/R/2026/60009,,,,RA1_sheet
+KA-113,KA,plain,RA1,2026-09-20,FWDVG/R/2026/60064,,,,RA1_sheet
+KA-115,KA,plain,RA1,2026-09-20,CSMYS/R/2026/60030,,,,RA1_sheet
+KA-117,KA,legal_salience,RA1,2026-09-20,HMCMG/R/2026/60055,,,,RA1_sheet
+KA-122,KA,plain,RA1,2026-09-20,PUCHA/R/2026/60008,,,,RA1_sheet
+KA-123,KA,plain,RA1,2026-09-20,PUCHI/R/2026/60009,,,,RA1_sheet
+KA-132,KA,legal_salience,RA1,2026-09-20,RDBMU/R/2026/60011,,,,RA1_sheet
+KA-134,KA,legal_salience,RA1,2026-09-20,RDHOL/R/2026/60045,,,,RA1_sheet
+KA-137,KA,legal_salience,RA1,2026-09-20,RDMAD/R/2026/60015,,,,RA1_sheet
+KA-138,KA,plain,RA1,,,,,,RA1_sheet
+KA-139,KA,plain,RA1,,,,,,RA1_sheet
+KA-141,KA,plain,RA1,,,,,,RA1_sheet
+KA-149,KA,plain,RA1,,,,,,RA1_sheet
+KA-150,KA,plain,RA1,,,,,,RA1_sheet
+KA-152,KA,plain,RA1,,,,,,RA1_sheet
+KA-155,KA,plain,RA1,,,,,,RA1_sheet
+KA-157,KA,plain,RA1,,,,,,RA1_sheet
+KA-158,KA,legal_salience,RA1,,,,,,RA1_sheet
+KA-159,KA,plain,RA1,,,,,,RA1_sheet
+KA-161,KA,plain,RA1,,,,,,RA1_sheet
+KA-164,KA,plain,RA1,,,,,,RA1_sheet
+KA-168,KA,legal_salience,RA1,,,,,,RA1_sheet
+KA-169,KA,plain,RA1,,,,,,RA1_sheet
+KA-175,KA,plain,RA1,,,,,,RA1_sheet
+KA-177,KA,plain,RA1,,,,,,RA1_sheet
+MH-006,MH,legal_salience,RA1,2026-09-15,AUCPO/R/2026/60232,,,,RA1_sheet
+MH-009,MH,plain,RA1,,,,,,RA1_sheet
+MH-013,MH,plain,RA1,,,,,,RA1_sheet
+MH-018,MH,plain,RA1,,,,,,RA1_sheet
+MH-019,MH,plain,RA1,,,,,,RA1_sheet
+MH-021,MH,plain,RA1,,,,,,RA1_sheet
+MH-023,MH,plain,RA1,,,,,,RA1_sheet
+MH-030,MH,legal_salience,RA1,,,,,,RA1_sheet
+MH-004,MH,plain,RA3,,,,,,RA1_sheet
+MH-011,MH,legal_salience,RA3,,,,,,RA1_sheet
+MH-012,MH,plain,RA3,,,,,,RA1_sheet
+MH-014,MH,plain,RA3,,,,,,RA1_sheet
+MH-015,MH,plain,RA3,,,,,,RA1_sheet
+MH-020,MH,plain,RA3,,,,,,RA1_sheet
+MH-024,MH,plain,RA3,,,,,,RA1_sheet
+MH-029,MH,legal_salience,RA3,,,,,,RA1_sheet
+MH-032,MH,legal_salience,RA3,,,,,,RA1_sheet
+MH-001,MH,plain,RA4,,,,,,RA1_sheet
+MH-002,MH,legal_salience,RA4,,,,,,RA1_sheet
+MH-003,MH,plain,RA4,,,,,,RA1_sheet
+MH-007,MH,legal_salience,RA4,,,,,,RA1_sheet
+MH-008,MH,plain,RA4,,,,,,RA1_sheet
+MH-022,MH,plain,RA4,,,,,,RA1_sheet
+MH-025,MH,legal_salience,RA4,,,,,,RA1_sheet
+MH-031,MH,plain,RA4,,,,,,RA1_sheet
