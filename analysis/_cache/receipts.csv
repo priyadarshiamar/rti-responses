@@ -1,5 +1,4 @@
 app_id,file,reg_no,filing_date,method
-KA-012,RA2_filed_rti/KA/RTI_KA-012.pdf,,,tesseract
 KA-016,RA2_filed_rti/KA/RTI_KA-016.pdf,,,tesseract
 KA-017,RA2_filed_rti/KA/RTI_KA-017.pdf,,,tesseract
 KA-019,RA2_filed_rti/KA/RTI_KA-019.pdf,,,tesseract
@@ -404,3 +403,4 @@ KA-001,RA2_filed_rti/KA/RTI_KA-001.pdf,,,unavailable
 KA-002,RA2_filed_rti/KA/RTI_KA-002.pdf,,,unavailable
 KA-003,RA2_filed_rti/KA/RTI_KA-003.pdf,,,unavailable
 KA-008,RA2_filed_rti/KA/RTI_KA-008.pdf,,,unavailable
+KA-012,RA2_filed_rti/KA/RTI_KA-012.pdf,,,unavailable

@@ -134,8 +134,8 @@ def b8():
     if not os.path.exists(CIC_P): write("tab_b8.tex", "Delhi & -- \\\\"); return
     c = pd.read_csv(CIC_P); c = c[c.name.str.contains("merged") == False]
     for col in ["opening","received","total","transferred","fa_received","fa_disposed","replied","rejected","fee_rs","charges_rs","penalty_rs","cpios"]: c[col] = pd.to_numeric(c[col], errors="coerce")
-    g = c.groupby("year").agg(auth=("code","nunique"), received=("received","sum"), transferred=("transferred","sum"), replied=("replied","sum"), rejected=("rejected","sum"), fa=("fa_received","sum"), fee=("fee_rs","sum"), charges=("charges_rs","sum"), pen=("penalty_rs","sum"))
-    rows = [f"{y} & {int(r.auth)} & {fmt(r.received)} & {100*r.transferred/r.received:.1f} & {100*r.replied/r.received:.1f} & {100*r.rejected/r.received:.1f} & {100*r.fa/r.received:.1f} & {fmt((r.fee+r.charges)/r.received,1)} & {fmt(r.pen)} \\\\" for y, r in g.iterrows()]
+    g = c.groupby("year").agg(auth=("code","nunique"), received=("received","sum"), transferred=("transferred","sum"), replied=("replied", lambda v: v.sum(min_count=1)), rejected=("rejected","sum"), fa=("fa_received","sum"), fee=("fee_rs","sum"), charges=("charges_rs","sum"), pen=("penalty_rs","sum"))
+    rows = [f"{y} & {int(r.auth)} & {fmt(r.received)} & {100*r.transferred/r.received:.1f} & {"--" if pd.isna(r.replied) else f"{100*r.replied/r.received:.1f}"} & {100*r.rejected/r.received:.1f} & {100*r.fa/r.received:.1f} & {fmt((r.fee+r.charges)/r.received,1)} & {fmt(r.pen)} \\\\" for y, r in g.iterrows()]
     write("tab_b8.tex", "\n".join(rows))
     # top Delhi authorities latest year
     ly = c[c.year == c.year.max()].sort_values("received", ascending=False).head(12)
