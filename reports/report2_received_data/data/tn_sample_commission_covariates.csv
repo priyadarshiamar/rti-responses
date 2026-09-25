@@ -1,0 +1,177 @@
+application_id,tier,office_name,key,canonical,score,received_mean_2021_23,reply_share,transfer_share,fa_rate
+TN-026,Department,ADI DRAVIDAR AND TRIBAL WELFARE DEPARTMENT,adi dravidar welfare,Directorate of Adi Dravidar Welfare,0.85,407.3,1.0,0.0,0.167
+TN-027,Head of Department,DIRECTORATE OF ADIDRAVIDAR WELFARE,adi dravidar welfare,Directorate of Adi Dravidar Welfare,0.97,407.3,1.0,0.0,0.167
+TN-028,Head of Department,"DIRECTORATE OF TRIBAL WELFARE, CHENNAI",social welfare,Tamil Nadu Social Welfare Board,0.79,279.4,0.58,0.43,0.061
+TN-029,Head of Department,"TAMIL NADU ADI DRAVIDAR HOUSING AND DEVELOPMENT CORPORATION (TAHDCO) HEAD OFFICE, CHENNAI",adi dravidar housing development tahdco,Tamil Nadu Adi Dravidar Housing and Development Corporation (TAHDCO),0.94,85.0,0.87,0.09,0.09
+TN-052,Department,AGRICULTURE AND FARMERS WELFARE DEPARTMENT,agriculture farmers welfare secretariat,"Agriculture and Farmers Welfare Department, Secretariat",0.82,282.5,0.13,0.86,0.104
+TN-053,Head of Department,"AGRICULTURAL ENGINEERING DEPARTMENT, CHENNAI",agricultural engineering,Agricultural Engineering,1.0,381.3,0.89,0.06,0.086
+TN-054,Head of Department,DIRECTOR OF SUGAR,,,,,,,
+TN-055,Head of Department,DIRECTORATE OF AGRICULTURE,sericulture,Directorate of Sericulture,0.82,76.7,0.9,0.05,0.248
+TN-056,Head of Department,"TAMILNADU AGRICULTURAL UNIVERSITY, COIMBATORE",agricultural university,Tamil Nadu Agricultural University,0.81,169.0,0.66,0.03,0.116
+TN-083,Department,"ANIMAL HUSBANDRY, DAIRYING, FISHERIES AND FISHERMEN WELFARE DEPARTMENT",animal husbandry dairying fisheries fishermen welfare secretariat,Commissionerate of Fisheries & Fishermen Welfare,0.9,380.0,0.49,0.29,0.076
+TN-084,Head of Department,"COMMISSIONERATE OF FISHERIES AND FISHERMEN WELFARE, CHENNAI",,,,,,,
+TN-085,Head of Department,"COMMISSIONERATE OF MILK PRODUCTION AND DAIRY DEVELOPMENT, CHENNAI",milk production dairy development,Directorate of Milk Production and Dairy Development,1.0,307.7,0.77,0.14,0.122
+TN-086,Head of Department,DIRECTORATE OF ANIMAL HUSBANDRY AND VETERINARY SERVICES,director animal husbandry veterinary services,Director of Animal Husbandry and Veterinary Services,0.89,524.5,0.86,0.08,0.053
+TN-087,Head of Department,TAMIL NADU FISHERIES DEVELOPMENT CORPORATION,fisheries development,Tamil Nadu Fisheries Development Corporation,1.0,11.0,0.82,0.15,0.03
+TN-110,Department,"BACKWARD CLASSES, MOST BACKWARD CLASSES AND MINORITIES WELFARE DEPART",backward classes most backward classes minorities welfare secretariat,Directorate of Minorities Welfare,0.93,173.8,0.59,0.41,0.071
+TN-111,Head of Department,DIRECTORATE OF MOST BACKWARD CLASSES AND DENOTIFIED COMMUNITIES WELFAR,most backward classes denotified communities welfare,Most Backward Classes & Denotified Communities Welfare,0.99,96.0,1.0,0.0,0.017
+TN-112,Head of Department,TAMIL NADU DENOTIFIED COMMUNITIES WELFARE BOARD,denotified communities welfare board,Denotified Communities Welfare Board,1.0,5.3,0.94,0.06,0.125
+TN-113,Head of Department,TAMIL NADU LINGUISTIC MINORITIES SOCIAL AND ECONOMIC DEVELOPMENT CORPO,liguistic minorities social economic development,Tamil Nadu Liguistic Minorities Social and Economic development Corporation,0.93,1.0,0.0,1.0,0.0
+TN-114,Head of Department,TAMIL NADU STATE MINORITIES COMMISSION,state minorities commission,State Minorities Commission,1.0,13.3,0.12,0.48,0.0
+TN-136,Department,COMMERCIAL TAXES AND REGISTRATION,,,,,,,
+TN-137,Head of Department,INSPECTOR GENERAL OF REGISTRATION,,,,,,,
+TN-138,Head of Department,OFFICE OF THE COMMISSIONER OF COMMERCIAL TAXES,,,,,,,
+TN-173,Department,"COOPERATION, FOOD AND CONSUMER PROTECTION DEPARTMENT",co operation food consumer protection secretariat,"Co-operation, Food and Consumer Protection Department, Secretariat",0.85,554.3,0.12,0.87,0.088
+TN-174,Head of Department,REGISTRAR OF COOPERATIVE SOCIETIES,registrar co operative societies,Registrar of Co-operative Societies,0.98,3401.5,0.64,0.34,0.157
+TN-175,Head of Department,STATE CONSUMER DISPUTES REDRESSAL COMMISSION,state consumer disputes redressal commission,State Consumer Disputes Redressal Commission,1.0,223.7,0.97,0.03,0.14
+TN-176,Head of Department,TAMIL NADU CIVIL SUPPLIES CORPORATION (HEAD OFFICE),,,,,,,
+TN-177,Head of Department,TAMIL NADU WAREHOUSING CORPORATION,warehousing,Tamil Nadu Warehousing Corporation,1.0,16.0,1.04,0.0,0.167
+TN-201,Department,ENERGY DEPARTMENT,energy secretariat,"Energy Department, Secretariat",0.5,443.0,0.07,0.92,0.234
+TN-202,Head of Department,TAMIL NADU ELECTRICITY REGULATORY COMMISSION,electricity regulatory commission,Tamil Nadu Electricity Regulatory Commission,1.0,127.0,0.75,0.25,0.094
+TN-203,Head of Department,TAMIL NADU POWER DISTRIBUTION CORPORATION LIMITED,,,,,,,
+TN-204,Head of Department,TAMIL NADU POWER GENERATION CORPORATION LIMITED,,,,,,,
+TN-205,Head of Department,TAMIL NADU TRANSMISSION CORPORATION LIMITED,,,,,,,
+TN-229,Department,"ENVIRONMENT, CLIMATE CHANGE AND FORESTS DEPARTMENT",,,,,,,
+TN-230,Head of Department,"OFFICE OF THE PRINCIPAL CHIEF CONSERVATOR OF FORESTS (HEAD OF FOREST FORCE), FOREST HEADQUATERS",,,,,,,
+TN-231,Head of Department,TAMIL NADU TEA PLANTATION CORPORATION,tea plantation,The Tamil Nadu Tea Plantation Corporation Limited,1.0,52.3,0.97,0.01,0.096
+TN-232,Head of Department,"TAMILNADU FOREST PLANTATION CORPORATION LIMITED, TRICHY",forest plantation,Tamil Nadu Forest Plantation Corporation Limited,0.83,30.0,0.81,0.24,0.011
+TN-233,Head of Department,"TAMILNADU POLLUTION CONTROL BOARD, CORPORATE OFFICE",pollution control board,Tamil Nadu Pollution Control Board,0.82,2806.0,1.0,0.0,0.077
+TN-256,Department,FINANCE DEPARTMENT,finance secretariat,"Finance Department, Secretariat",0.54,1202.3,0.74,0.25,0.084
+TN-257,Head of Department,"DIRECTORATE OF AUDIT FOR MILK CO-OPERATIVES, CHENNAI",audit for milk co operatives,Directorate of Audit for Milk Cooperative,1.0,18.7,0.82,0.09,0.125
+TN-258,Head of Department,DIRECTORATE OF HINDU RELIGIOUS INSTITUTIONS AUDIT,hindu religious institutions audit,Hindu Religious Institutions Audit Department,1.0,52.0,0.92,0.08,0.154
+TN-259,Head of Department,"DIRECTORATE OF SMALL SAVINGS, NANDANAM, CHENNAI",,,,,,,
+TN-260,Head of Department,"DIRECTORATE OF TREASURIES AND ACCOUNTS, CHENNAI",treasuries accounts,Commissionerate of Treasuries and Accounts,1.0,1749.7,0.85,0.11,0.13
+TN-281,Department,"HANDLOOMS, HANDICRAFTS, TEXTILES AND KHADI DEPARTMENT",handlooms handicrafts textiles khadi secretariat,"Handlooms, Handicrafts, Textiles and Khadi Department, Secretariat",0.86,58.0,0.2,0.75,0.109
+TN-282,Head of Department,CO OPTEX,co optex,Co-optex,1.0,52.7,1.01,0.0,0.089
+TN-283,Head of Department,DIRECTORATE OF SERICULTURE,sericulture,Directorate of Sericulture,1.0,76.7,0.9,0.05,0.248
+TN-284,Head of Department,TAMIL NADU KHADI AND VILLAGE INDUSTRIES BOARD,khadi village industries board,Tamil Nadu Khadi Village Industries Board,1.0,34.0,0.98,0.02,0.343
+TN-285,Head of Department,THE TAMIL NADU HANDICRAFTS DEVELOPMENT CORPORATION LTD,handicrafts development,Tamil Nadu Handicrafts Development Corporation,1.0,6.0,1.0,0.0,0.222
+TN-307,Department,HEALTH AND FAMILY WELFARE DEPARTMENT,family welfare,"Health and Family Welfare Department, Secretariat",0.8,590.5,0.22,0.74,0.082
+TN-308,Head of Department,DIRECTORATE OF FAMILY WELFARE,family welfare,"Health and Family Welfare Department, Secretariat",1.0,590.5,0.22,0.74,0.082
+TN-309,Head of Department,DIRECTORATE OF MEDICAL AND RURAL HEALTH SERVICES,medical rural health services esi,Directorate of Medical and Rural Health Services (ESI),0.94,924.2,0.64,0.31,0.078
+TN-310,Head of Department,TAMIL NADU NURSES AND MIDWIVES COUNCIL,,,,,,,
+TN-311,Head of Department,"TAMIL NADU STATE BLINDNESS CONTROL SOCIETY, CHENNAI",state blindness control society,Tamil Nadu State Blindness Control Society,1.0,10.0,1.0,0.0,0.25
+TN-336,Department,HIGHER EDUCATION DEPARTMENT,higher education secretariat,"Higher Education Department, Secretariat",0.73,733.7,0.32,0.64,0.12
+TN-337,Head of Department,ALAGAPPA UNIVESITY,alagappa university,Alagappa University,0.97,174.7,0.94,0.0,0.092
+TN-338,Head of Department,"DIRECTORATE OF COLLEGIATE EDUCATION, CHENNAI",collegiate education,Directorate of Collegiate Education,1.0,1559.7,0.96,0.03,0.073
+TN-339,Head of Department,TAMIL NADU STATE COUNCIL FOR SCIENCE AND TECHNOLOGY,state council for science technology,Tamil Nadu State Council for Science and Technology,1.0,2.3,1.0,0.0,0.0
+TN-340,Head of Department,UNIVERSITY OF MADRAS,university madras,University of Madras,1.0,501.7,0.95,0.02,0.094
+TN-367,Department,HIGHWAYS AND MINOR PORTS DEPARTMENT,highways minor ports secretariat,"Highways and Minor Ports Department, Secretariat",0.77,2873.8,0.74,0.24,0.076
+TN-368,Head of Department,"HIGHWAYS RESEARCH STATION, CHENNAI",,,,,,,
+TN-369,Head of Department,"HIGHWAYS RESEARCH STATION, QUALITY CONTROL DIVISION,CHENNAI",,,,,,,
+TN-370,Head of Department,TAMILNADU ROAD INFRASTRUCTURE DEVELOPMENT CORPORATION,road infrastructure development,Tamil Nadu Road Infrastructure Development Corporation,1.0,25.2,0.91,0.08,0.05
+TN-371,Head of Department,"THE PROJECT DIRECTOR, TAMIL NADU ROAD SECTOR PROJECT-II, CHENNAI",,,,,,,
+TN-392,Department,HOME DEPARTMENT,law secretariat,"Law Department, Secretariat",0.11,437.3,0.26,0.66,0.152
+TN-393,Head of Department,"DIRECTOR GENERAL OF POLICE, HEAD OF POLICE FORCE, CHENNAI",,,,,,,
+TN-394,Head of Department,"DIRECTOR GENERAL OF PRISONS AND CORRECTIONAL SERVICES, EGMORE, CHENNAI",,,,,,,
+TN-395,Head of Department,"DIRECTORATE OF FIRE SERVICE, CHENNAI",fire rescue services,Fire and Rescue Services Department,0.75,895.3,0.8,0.03,0.057
+TN-396,Head of Department,TAMIL NADU UNIFORMED SERVICES RECRUITMENT BOARD,uniformed services recruitment board,Tamil Nadu Uniformed Services Recruitment Board,1.0,461.0,0.89,0.08,0.051
+TN-420,Department,HOUSING AND URBAN DEVELOPMENT DEPARTMENT,housing urban development secretariat,"Housing and Urban Development Department, Secretariat",0.81,505.3,0.33,0.67,0.054
+TN-421,Head of Department,CHENNAI METROPOLITAN DEVELOPMENT AUTHORITY,metropolitan development authority,Chennai Metropolitan Development Authority,1.0,1909.0,0.92,0.05,0.121
+TN-422,Head of Department,CHENNAI UNIFIED METROPOLITAN TRANSPORT AUTHORITY (CUMTA),,,,,,,
+TN-423,Head of Department,"TAMIL NADU REAL ESTATE REGULATORY AUTHORITY, CHENNAI",,,,,,,
+TN-424,Head of Department,"TAMILNADU URBAN HABITAT DEVELOPMENT BOARD, CHENNAI",urban habitat development board,Tamil Nadu Urban Habitat Development Board,1.0,664.3,0.84,0.02,0.188
+TN-445,Department,HUMAN RESOURCES MANAGEMENT DEPARTMENT,human resources management secretariat,"Human Resources Management Department, Secretariat",0.81,1991.7,0.63,0.36,0.069
+TN-446,Head of Department,DIRECTOR GENERAL OF TRAINING,director general training,Director General of Training,1.0,15.3,1.0,0.0,0.13
+TN-447,Head of Department,"DISTRICT INSPECTION CELL OFFICE, SALEM",,,,,,,
+TN-448,Head of Department,"DISTRICT INSPECTION CELL OFFICE, VELLORE",,,,,,,
+TN-449,Head of Department,"DISTRICT INSPECTION CELL OFFICER, TIRUCHIRAPPALLI",,,,,,,
+TN-456,Department,INDUSTRIES DEPARTMENT,small industries,Tamil Nadu Small Industries Corporation Limited,0.77,54.5,0.96,0.0,0.049
+TN-457,Head of Department,GUIDANCE,,,,,,,
+TN-458,Head of Department,TAMIL NADU CEMENTS CORPORATION LIMITED,cements,Tamil Nadu Cements Corporation,1.0,48.3,0.96,0.04,0.179
+TN-459,Head of Department,TAMILNADU INDUSTRIAL DEVELOPMENT CORPORATION LIMITED (TIDCO),industrial development,Tamil Nadu Industrial Development Corporation,0.88,48.3,0.72,0.22,0.034
+TN-460,Head of Department,THE TAMIL NADU INDUSTRIAL INVESTMENT CORPORATION LIMITED (TIIC),industrial investment,"Tamil Nadu Industrial Investment Corporation Ltd.,",0.89,68.3,0.97,0.03,0.151
+TN-464,Department,INFORMATION TECHNOLOGY AND DIGITAL SERVICES DEPARTMENT,information technology digital services secretariat,"Information Technology and Digital Services Department, Secretariat",0.87,88.5,0.33,0.62,0.136
+TN-465,Head of Department,DIRECTORATE OF E-GOVERNANCE / TAMIL NADU E-GOVERNANCE CORPORATION,,,,,,,
+TN-466,Head of Department,ELECTRONICS CORPORATION OF TAMIL NADU,electronics,"Electronics Corporation of Tamil Nadu Ltd.,",1.0,57.3,0.99,0.03,0.041
+TN-467,Head of Department,TAMIL NADU ARASU CABLE TV CORPORATION LIMITED(TACTV),arasu cable tv,Tamil Nadu Arasu Cable TV Corporation Ltd.,0.82,62.3,0.67,0.08,0.166
+TN-468,Head of Department,"TAMIL VIRTUAL ACADEMY, CHENNAI",virtual academy,Tamil Virtual Academy,1.0,2.3,0.71,0.29,0.0
+TN-489,Department,LABOUR WELFARE AND SKILL DEVELOPMENT DEPARTMENT,labour welfare skill development secretariat,"Labour Welfare and Skill Development Department, Secretariat",0.84,432.3,0.38,0.6,0.031
+TN-490,Head of Department,"ASSISTANT COMMISSIONER OF LABOUR(C)-3,CHENNAI.",,,,,,,
+TN-491,Head of Department,"DIRECTORATE OF EMPLOYMENT AND TRAINING (EMPLOYMENT WING),CHENNAI",employment training employment wing,Commissionerate of Employment and Training (Employment wing),1.0,676.0,0.93,0.07,0.076
+TN-492,Head of Department,"DIRECTORATE OF EMPLOYMENT AND TRAINING (TRAINING WING), CHENNAI",employment training training,Commissionerate of Employment and Training (Training),0.92,216.0,0.98,0.03,0.145
+TN-493,Head of Department,DIRECTORATE OF INDUSTRIAL SAFETY AND HEALTH (DISH) CHENNAI,industrial safety health,Directorate of Industrial Safety and Health,0.91,896.0,0.87,0.13,0.083
+TN-524,Department,LAW DEPARTMENT,law secretariat,"Law Department, Secretariat",0.33,437.3,0.26,0.66,0.152
+TN-525,Head of Department,DIRECTORATE OF LEGAL STUDIES,legal studies,Directorate of Legal Studies,1.0,134.0,0.97,0.03,0.065
+TN-526,Head of Department,STATE LAW COMMISSION,state law commission,State Law Commission,1.0,2.0,0.5,0.0,0.0
+TN-527,Head of Department,STATE OFFICIAL LANGUAGE(LEGISLATIVE)COMMISSION,state official language legislative commission,State Official Language (Legislative) Commission,1.0,2.5,0.6,0.4,0.2
+TN-528,Head of Department,"TAMIL NADU NATIONAL LAW UNIVERSITY, TIRUCHIRAPPALLI",national law university tiruchirappalli,Tamil Nadu National Law University Tiruchirappalli,1.0,8.0,1.0,0.0,0.0
+TN-544,Department,LEGISLATIVE ASSEMBLY DEPARTMENT,legislative assembly secretariat,Legislative Assembly Secretariat.,0.77,157.0,0.6,0.18,0.28
+TN-545,Department,"MICRO, SMALL AND MEDIUM ENTERPRISES DEPARTMENT",micro small medium enterprises secretariat,"Micro, Small and Medium Enterprises Department, Secretariat",0.83,77.7,0.62,0.37,0.056
+TN-546,Head of Department,BUREAU FOR FACILITATING MSMES OF TAMIL NADU -FAME TN,,,,,,,
+TN-547,Head of Department,ENTREPRENEURSHIP DEVELOPMENT AND INNOVATION INSTITUTE,entrepreneurship development innovation institute,Tamil Nadu Entrepreneurship Development and Innovation Institute,1.0,5.3,0.69,0.44,0.0
+TN-548,Head of Department,"TAMIL NADU COIR BUSINESS DEVELOPMENT CORPORATION, COIMBATORE",,,,,,,
+TN-549,Head of Department,TAMIL NADU SMALL INDUSTRIES CORPORATION LIMITED,small industries,Tamil Nadu Small Industries Corporation Limited,1.0,54.5,0.96,0.0,0.049
+TN-570,Department,MUNICIPAL ADMINISTRATION AND WATER SUPPLIES DEPARTMENT,municipal administration water supply secretariat,"Municipal Administration and Water Supply Department, Secretariat",0.84,1016.8,0.32,0.68,0.127
+TN-571,Head of Department,"DIRECTORATE OF MUNICIPAL ADMINISTRATION,",,,,,,,
+TN-572,Head of Department,DIRECTORATE OF TOWN PANCHAYATS,town panchayats,Directorate of Town Panchayats,1.0,13594.3,0.93,0.06,0.099
+TN-573,Head of Department,GREATER CHENNAI CORPORATION,greater,Greater Chennai Corporation,1.0,6064.3,0.8,0.17,0.137
+TN-574,Head of Department,TAMILNADU WATER SUPPLY AND DRAINAGE BOARD,water supply drainage board,Tamil Nadu Water Supply and Drainage Board,1.0,371.0,1.0,0.01,0.02
+TN-603,Department,NATURAL RESOURCES DEPARTMENT,water resources secretariat,"Water Resources Department, Secretariat",0.59,225.5,0.18,0.79,0.127
+TN-604,Head of Department,"TAMIL NADU MAGNESITE LIMITED (TANMAG), SALEM",,,,,,,
+TN-605,Head of Department,"TAMIL NADU MINERALS LIMITED, CHENNAI",minerals,"Tamil Nadu Minerals Ltd.,",1.0,9.5,1.0,0.0,0.105
+TN-606,Department,"PLANNING, DEVELOPMENT AND SPECIAL INITIATIVES DEPARTMENT",planning development special initiatives secretariat,"Planning, Development and Special Initiatives Department, Secretariat",0.87,38.0,0.19,0.81,0.026
+TN-607,Head of Department,"DEPUTY DIRECTOR OF STATISTICS, VIRUDHUNAGAR",,,,,,,
+TN-608,Head of Department,"DEPUTY DIRECTOR OF STATISTICS,COIMBATORE",,,,,,,
+TN-609,Head of Department,"DEPUTY DIRECTOR OF STATISTICS,SIVAGANGAI",,,,,,,
+TN-610,Head of Department,"SPECIAL AREA DEVELOPMENT PROGRAMME (SADP), THE NILGIRIS",special area development programme,Special Area Development and Programme,0.83,4.3,0.38,0.62,0.0
+TN-613,Department,PROHIBITION AND EXCISE DEPARTMENT,prohibition excise,Home Department Prohibition and Excise Wing,1.0,585.7,0.21,0.78,0.108
+TN-614,Head of Department,COMMISSIONER OF PROHIBITION AND EXCISE,,,,,,,
+TN-615,Head of Department,TAMIL NADU STATE MARKETING CORPORATION,state marketing,Tamil Nadu State Marketing Corporation Limited,1.0,1965.7,0.98,0.01,0.163
+TN-636,Department,PUBLIC DEPARTMENT,public secretariat,"Public Department, Secretariat",0.5,4691.3,0.12,0.76,0.073
+TN-637,Head of Department,COMMISSIONERATE OF REHABILITATION AND WELFARE OF NON-RESIDENT TAMILS,,,,,,,
+TN-638,Head of Department,GOVERNORS SECRETARIAT,governor s secretariat,Governor’s Secretariat,0.98,298.7,0.56,0.42,0.129
+TN-639,Head of Department,STATE HUMAN RIGHTS COMMISSION TAMIL NADU,state human rights commission,State Human Rights Commission,1.0,676.7,0.93,0.03,0.141
+TN-640,Head of Department,TAMIL NADU EX-SERVICEMENS CORPORATION LIMITED,ex servicemen,Tamil Nadu Ex-Servicemen Corporation,0.96,83.0,0.93,0.06,0.116
+TN-661,Department,PUBLIC WORKS DEPARTMENT,public works secretariat,"Public Works Department, Secretariat",0.67,88.0,0.3,0.66,0.136
+TN-662,Head of Department,"ENGINEER-IN-CHIEF , PUBLIC WORKS DEPARTMENT, CHEPAUK",,,,,,,
+TN-683,Department,REVENUE AND DISASTER MANAGEMENT DEPARTMENT,revenue disaster management doss,"Revenue and Disaster Management Department, DOSS",0.92,13490.0,0.52,0.46,0.073
+TN-684,Head of Department,COMMISSIONER OF LAND REFORMS,commissioner handlooms,Commissioner of Handlooms,0.81,373.5,0.78,0.2,0.238
+TN-685,Head of Department,COMMISSIONER OF REVENUE ADMINISTRATION,commissioner food safety drug administration,Commissioner of Food Safety and Drug Administration,0.76,1092.0,0.83,0.11,0.016
+TN-686,Head of Department,COMMISSIONER OF URBAN LAND CEILING AND URBAN LAND TAX,urban land ceiling urban land tax,Commissionerate of Urban Land Ceiling and Urban Land Tax,0.84,386.3,0.87,0.12,0.079
+TN-687,Head of Department,DIRECTOR OF SURVEY AND SETTLEMENT,survey settlement,Survey and Settlement,0.79,8877.5,0.53,0.47,0.292
+TN-712,Department,RURAL DEVELOPMENT AND PANCHAYAT RAJ DEPARTMENT,rural development panchayat raj secretariat,"Rural Development and Panchayat Raj Department, Secretariat",0.84,18960.3,0.78,0.16,0.107
+TN-713,Head of Department,DIRECTORATE OF RURAL DEVELOPMENT AND PANCHAYAT RAJ DEPARTMENT,rural development panchayat raj secretariat,"Rural Development and Panchayat Raj Department, Secretariat",0.84,18960.3,0.78,0.16,0.107
+TN-714,Head of Department,STATE INSTITUTE OF RURAL DEVELOPMENT AND PANCHAYAT RAJ,state institute rural development,State Institute of Rural Development,0.82,4.7,0.79,0.21,0.071
+TN-715,Head of Department,TAMIL NADU STATE ELECTION COMMISSION,state election commission,Tamil Nadu State Election Commission,1.0,314.0,0.33,0.67,0.068
+TN-716,Head of Department,VAZHNADHU KATTUOM PROJECT (TNRTP)),vaazhndhu kattuvoom project,Tamil Nadu Vaazhndhu Kattuvoom Project,0.83,5.0,0.4,0.6,0.2
+TN-743,Department,SCHOOL EDUCATION DEPARTMENT,school education,Directorate of School Education,1.0,2110.0,0.59,0.4,0.054
+TN-744,Head of Department,DIRECTOR OF NON FORMAL AND ADULT EDUCATION,nonformal adult education,Nonformal & Adult Education,0.83,6.3,1.0,0.0,0.0
+TN-745,Head of Department,"DIRECTORATE OF PUBLIC LIBRARIES, CHENNAI",public libraries,Directorate of Public Libraries,1.0,759.7,1.0,0.0,0.112
+TN-746,Head of Department,SAMAGRA SHIKSHA,,,,,,,
+TN-747,Head of Department,TAMIL NADU TEXT BOOK AND EDUCATIONAL SERVICES CORPORATION,text book educational services,Tamil Nadu Text Book and Educational Services Corporation,1.0,19.7,0.81,0.19,0.186
+TN-841,Department,SOCIAL REFORMS DEPARTMENT,social reforms secretariat,"Social Reforms Department, Secretariat",0.7,3.0,0.83,0.17,0.167
+TN-842,Head of Department,SOCIAL JUSTICE MONITORING COMMITTEE,social justice monitoring committee,Social Justice Monitoring Committee,1.0,3.5,1.0,0.0,0.286
+TN-843,Department,SOCIAL WELFARE AND WOMEN EMPOWERMENT DEPARTMENT,,,,,,,
+TN-844,Head of Department,"DIRECTORATE OF INTEGRATED CHILD DEVELOPMENT SERVICES, CHENNAI",integrated child development services,Directorate of Integrated Child Development Services,1.0,191.0,0.88,0.13,0.061
+TN-845,Head of Department,TAMIL NADU STATE WOMEN COMMISSION,state law commission,State Law Commission,0.86,2.0,0.5,0.0,0.0
+TN-846,Head of Department,TAMILNADU WORKING WOMEN HOSTELS CORPORATION LTD,,,,,,,
+TN-847,Head of Department,WIDOW WELFARE BOARD,,,,,,,
+TN-871,Department,SPECIAL PROGRAMMES IMPLEMENTATION DEPARTMENT,special programme implementation secretariat,"Special Programme Implementation Department, Secretariat",0.83,43.0,0.23,0.77,0.047
+TN-872,Head of Department,CLEAN TAMIL NADU COMPANY LIMITED,,,,,,,
+TN-873,Head of Department,TAMIL NADU SKILL DEVELOPMENT CORPORATION,silk development,Tamil Nadu Silk Development Corporation,0.91,21.5,0.86,0.14,0.07
+TN-874,Head of Department,TAMIL NADU WOMEN EMPLOYMENT AND SAFETY PROJECT,,,,,,,
+TN-875,Department,TAMIL DEVELOPMENT AND INFORMATION DEPARTMENT,development information secretariat,"Tamil Development and Information Department, Secretariat",0.79,56.7,0.29,0.7,0.059
+TN-876,Head of Department,COMMISSIONERATE OF STATIONERY AND PRINTING,stationery printing,Directorate of Stationery and Printing,1.0,173.7,0.75,0.17,0.096
+TN-877,Head of Department,INTERNATIONAL INSTITUTE OF TAMIL STUDIES,international institute studies,International Institute of Tamil Studies,1.0,11.7,0.97,0.03,0.143
+TN-878,Head of Department,TAMIL DEVELOPMENT DEPARTMENT,silk development,Tamil Nadu Silk Development Corporation,0.81,21.5,0.86,0.14,0.07
+TN-879,Head of Department,THE DIRECTORATE OF TAMIL ETYMOLOGICAL DICTIONARY PROJECT,etymological dictionary project,Directorate of Tamil Etymological Dictionary Project,1.0,12.3,1.0,0.0,0.0
+TN-900,Department,"TOURISM, CULTURE AND RELIGIOUS ENDOWMENTS DEPARTMENT",tourism culture religious endowments secretariat,"Tourism, Culture and Religious Endowments Department, Secretariat.",0.86,348.7,0.18,0.81,0.093
+TN-901,Head of Department,DIRECTORATE OF ART AND CULTURE,art culture,Commissionerate of Art and Culture,1.0,100.3,0.91,0.08,0.08
+TN-902,Head of Department,DIRECTORATE OF GOVERNMENT MUSEUMS,museum,Directorate of Museum,0.92,5.7,0.94,0.06,0.0
+TN-903,Head of Department,TAMILNADU TOURISM DEVELOPMENT CORPORATION (HEAD OFFICE),tourism development,Tamil Nadu Tourism Development Corporation,0.88,34.3,0.7,0.23,0.039
+TN-904,Head of Department,THE COMMISSIONER OF HINDU RELIGIOUS AND CHARITABLE ENDOWMENTS DEPARTME,hindu religious charitable endowments,Commissionerate of Hindu Religious and Charitable Endowments,0.77,5842.0,0.78,0.16,0.131
+TN-926,Department,TRANSPORT DEPARTMENT,transport secretariat,"Transport Department, Secretariat",0.6,479.0,0.13,0.85,0.111
+TN-927,Head of Department,"METROPOLITAN TRANSPORT CORPORATION (MTC), CHENNAI",metropolitan transport,"Metropolitan Transport Corporation (Chennai) Ltd.,",0.92,3783.2,0.9,0.08,0.064
+TN-928,Head of Department,"MOTOR VEHICLES MAINTENANCE DEPARTMENT, CHENNAI",motor vehicles maintenance,"Motor Vehicles & Maintenance Department, Chennai",1.0,30.3,0.95,0.05,0.176
+TN-929,Head of Department,"TNSTC (SALEM) LTD.,",,,,,,,
+TN-930,Head of Department,TNSTC COIMBATORE (CBE)LTD.,,,,,,,
+TN-952,Department,WATER RESOURCES DEPARTMENT,water resources region,"Water Resources Department, Chennai Region",0.81,814.2,0.71,0.28,0.117
+TN-953,Head of Department,"ENGINEER-IN-CHIEF AND CHIEF ENGINEER(G), WRD, CHEPAUK, CHENNAI",engineer in chief chief engineer general,Engineer- in-Chief & Chief Engineer (General),0.84,326.8,0.41,0.55,0.091
+TN-976,Department,WELFARE OF DIFFERENTLY ABLED PERSONS DEPARTMENT,welfare differently abled persons secretariat,"Welfare of Differently Abled Persons Department, Secretariat",0.85,66.3,0.35,0.62,0.035
+TN-977,Head of Department,DIRECTORATE OF WELFARE OF DIFFERENTLY ABLED PERSONS,welfare differently abled persons secretariat,"Welfare of Differently Abled Persons Department, Secretariat",0.85,66.3,0.35,0.62,0.035
+TN-999,Department,YOUTH WELFARE AND SPORTS DEVELOPMENT DEPARTMENT,youth welfare sports development secretariat,"Youth Welfare and Sports Development, Secretariat",0.84,75.3,0.17,0.78,0.062
+TN-1000,Head of Department,NATIONAL CADET CORPS,national cadet corps,National Cadet Corps,1.0,13.7,0.88,0.0,0.073
+TN-1001,Head of Department,SPORTS DEVELOPMENT AUTHORITY OF TAMIL NADU,sports development authority,Sports Development Authority of Tamil Nadu,1.0,126.3,0.98,0.02,0.084
+TN-1002,Head of Department,"TAMIL NADU PHYSICAL EDUCATION AND SPORTS UNIVERSITY, CHENNAI",physical education sports university,Tamil Nadu Physical Education and Sports University,1.0,51.3,1.02,0.0,0.052
+TN-1003,Head of Department,TAMIL NADU STATE NATIONAL SERVICE SCHEME CELL,national service scheme,National Service Scheme,0.81,2.0,0.83,0.17,0.0
